@@ -36,6 +36,11 @@ jobs:
       - name: Pull Vercel project settings & env (production)
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
 
+      - name: Create .env for build (sensitive vars not pulled by vercel)
+        env:
+          DOTENV: ${{ secrets.DOTENV_PRODUCTION }}
+        run: printf '%s\n' "$DOTENV" > .env
+
       - name: Build (Next.js prebuilt output)
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
 
