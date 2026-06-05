@@ -1,0 +1,33 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AgentGroupAvatar-Bjrb2ogK.js","assets/rolldown-runtime-Cyuzqnbw.js","vendor/vendor-ai-runtime-CsMkIwdb.js","assets/es-B2d2bv-I.js","vendor/vendor-ui-runtime-BemxycyK.js","vendor/vendor-react-Du2OrJ5H.js","assets/defineProperty-DxBWXG7M.js","vendor/vendor-data-runtime-Cn4-_Xzu.js","assets/es-na8XYpNF.js","assets/imperative-CZQgOWZc.js","assets/common-B02b74ij.js","vendor/vendor-icons-BrLWQuP2.js","assets/image-CGDUMjQu.js","assets/dist-BRIL5mGU.js","assets/fast-deep-equal-MG-n9E1a.js","assets/katex-BgtKV8yS.js","assets/agent-h7g64c0D.js","assets/client-cV4dDi-k.js","assets/swr-CpnM5dDc.js","assets/fileSystem-CzhXT7r4.js","assets/agent-C2VhKPJI.js","assets/user-DmkVsUjH.js","assets/__vite-browser-external-C9tqynq8.js","assets/store-BQbr7IWj.js","assets/base-ui-kDrDQHsE.js","assets/upload-Duxt7jZt.js","assets/dist-DZiodBaD.js","assets/global-Cd7A4jdZ.js","assets/global-Nds4UIqv.js","assets/electron-CHkm9grf.js","assets/ipc-CRlB_H5u.js","assets/remoteServer-B35rA1qf.js","assets/system-DgE4KOOO.js","assets/selectors-Do_7LBR5.js","assets/isChunkingUnsupported-ySXw1DoF.js","assets/AntdStaticMethods-BKi8tch1.js","assets/document-C4QMkoeJ.js","assets/abortableRequest-UddiL_ia.js","assets/resource-Dapnuzaj.js","assets/tiny-invariant-CQwnNQOM.js","assets/downloadFile-C93lhgwC.js","assets/InfoTooltip-ZXU0Fc-J.js","assets/NeuralNetworkLoading-b9TOx-uK.js","assets/useAgentId-ta2IrfBV.js","assets/ThinkingSlider-BwidjRr8.js","assets/LevelSlider-Cj1R2SZa.js","assets/GroupAvatar-Me4qQlJG.js","assets/aiInfra-g3euZ6-Q.js","assets/modelParamsResolver-D5wc9ODI.js","assets/file-CXNe4JEU.js","assets/AgentGroupAvatar-rptWOpCb.css"])))=>i.map(i=>d[i]);
+import{a as e,n as t}from"./rolldown-runtime-Cyuzqnbw.js";import{ec as n,tc as r,vl as i,yl as a}from"../vendor/vendor-ai-runtime-CsMkIwdb.js";import{Aa as o,Ba as s,Ia as c,Ma as l,za as u}from"./imperative-CZQgOWZc.js";import{N as ee,ha as d,k as f,n as p}from"./es-na8XYpNF.js";import{Tt as m,n as te}from"./es-B2d2bv-I.js";import{t as h}from"./fast-deep-equal-MG-n9E1a.js";import{n as g,s as ne}from"./client-cV4dDi-k.js";import{b as re,l as _,r as v,x as y}from"./store-BQbr7IWj.js";import{n as b}from"./file-CXNe4JEU.js";import{r as x,t as S}from"./dist-B6y5a0RZ.js";import{n as C,t as w}from"./dynamic-DRyiCv9F.js";var T,E,D,O=t((()=>{p(),T=e(a()),E=e(i()),D=(0,T.memo)(()=>(0,E.jsxs)(o,{padding:12,children:[(0,E.jsx)(f,{active:!0,paragraph:{width:`70%`},title:!1}),(0,E.jsx)(f,{active:!0,paragraph:{width:`40%`},title:!1}),(0,E.jsx)(f,{active:!0,paragraph:{width:`80%`},title:!1}),(0,E.jsx)(f,{active:!0,paragraph:{width:`30%`},title:!1}),(0,E.jsx)(f,{active:!0,paragraph:{width:`50%`},title:!1}),(0,E.jsx)(f,{active:!0,paragraph:{width:`70%`},title:!1})]}))})),k,A,j,M,N=t((()=>{p(),l(),k=e(a()),b(),A=e(i()),j=c(({css:e,cssVar:t})=>({container:e`
+    padding-block: 12px;
+    padding-inline: 8px;
+    border-block-end: 1px dashed ${t.colorBorderSecondary};
+    border-radius: 4px;
+
+    &:hover {
+      background: ${t.colorFillTertiary};
+    }
+  `,text:e`
+    font-size: 14px;
+    line-height: 24px;
+  `,title:e`
+    font-size: 18px;
+  `})),M=(0,k.memo)(({text:e,type:t,id:n})=>{let r=v(e=>e.highlightChunks),i=(0,k.useMemo)(()=>{switch(t){default:return j.text;case`Title`:return j.title}},[t]);return(0,A.jsx)(o,{className:s(j.container,i),onMouseEnter:()=>{r([n])},onMouseLeave:()=>{r([])},children:e})})})),P,F,I,ie=t((()=>{p(),P=e(a()),S(),g(),O(),N(),F=e(i()),I=(0,P.memo)(({fileId:e})=>{let{data:t,isLoading:n,fetchNextPage:r}=ne.chunk.getChunksByFileId.useInfiniteQuery({id:e},{getNextPageParam:e=>e.nextCursor}),i=t?.pages.flatMap(e=>e.items)||[];return n?(0,F.jsx)(D,{}):(0,F.jsx)(o,{flex:1,children:(0,F.jsx)(x,{data:i,endReached:()=>{r()},itemContent:(e,t)=>(0,F.jsx)(o,{paddingInline:12,children:(0,F.jsx)(M,{...t,index:e})},t.id)})})})})),L,R,z,B,V=t((()=>{p(),l(),L=e(a()),R=e(i()),z=c(({css:e,cssVar:t})=>({container:e`
+    padding-block: 12px;
+    padding-inline: 8px;
+    border-block-end: 1px solid ${t.colorBorderSecondary};
+    border-radius: 4px;
+
+    &:hover {
+      background: ${t.colorFillTertiary};
+    }
+  `,pageNumber:e`
+    font-size: 12px;
+    color: ${t.colorTextDescription};
+  `,text:e`
+    font-size: 14px;
+    line-height: 24px;
+  `,title:e`
+    font-size: 18px;
+  `})),B=(0,L.memo)(({text:e,pageNumber:t,type:n,similarity:r})=>{let i=(0,L.useMemo)(()=>{switch(n){default:return z.text;case`Title`:return z.title}},[n]);return(0,R.jsxs)(o,{className:s(z.container,i),gap:8,children:[e,(0,R.jsxs)(o,{horizontal:!0,align:`center`,distribution:`space-between`,children:[(0,R.jsx)(d,{variant:`filled`,children:r.toFixed(2)}),(0,R.jsxs)(o,{className:z.pageNumber,children:[`第 `,t,` 页`]})]})]})})})),H,U,W,G,K=t((()=>{p(),H=e(h()),U=e(a()),S(),b(),O(),V(),W=e(i()),G=(0,U.memo)(()=>{let e=v(e=>e.isSimilaritySearching),t=v(e=>e.similaritySearchChunks,H.default);return e?(0,W.jsx)(D,{}):(0,W.jsx)(o,{flex:1,children:(0,W.jsx)(x,{data:t,itemContent:(e,t)=>(0,W.jsx)(o,{paddingInline:12,children:(0,W.jsx)(B,{...t,index:e})},t.id)})})})})),q,J,Y,ae=t((()=>{p(),q=e(a()),b(),re(),ie(),K(),J=e(i()),Y=(0,q.memo)(()=>{let[e,t,n]=v(e=>[y.enabledChunkFileId(e),y.showSimilaritySearchResult(e),e.semanticSearch]);if(e)return(0,J.jsxs)(o,{gap:8,height:`100%`,paddingBlock:`16px 0`,children:[(0,J.jsx)(o,{paddingInline:12,children:(0,J.jsx)(ee,{variant:`filled`,onChange:e=>{e||v.setState({isSimilaritySearch:!1})},onSearch:async t=>{v.setState({isSimilaritySearch:!!t}),n(t,e)}})}),t?(0,J.jsx)(G,{}):(0,J.jsx)(I,{fileId:e})]})})})),X,Z,Q,$;t((()=>{p(),te(),l(),X=e(a()),C(),b(),ae(),Z=e(i()),r(),Q=w(()=>n(()=>import(`./AgentGroupAvatar-Bjrb2ogK.js`).then(e=>(e.a(),e.i)),__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50])),{ssr:!1}),$=(0,X.memo)(()=>{let[e,t,n]=v(e=>[e.chunkDetailId,!!e.chunkDetailId,e.closeChunkDrawer]),r=v(_.getFileById(e));return(0,Z.jsx)(m,{open:t,size:`large`,title:r?.name,styles:{body:{padding:0}},onClose:()=>{n()},children:(0,Z.jsxs)(o,{horizontal:!0,height:`100%`,style:{overflow:`hidden`},children:[r&&(0,Z.jsx)(o,{flex:2,style:{overflow:`scroll`},children:(0,Z.jsx)(Q,{...r})}),(0,Z.jsx)(o,{flex:1,style:{borderInlineStart:`1px solid ${u.colorSplit}`},children:(0,Z.jsx)(Y,{})})]})})})}))();export{$ as default};

@@ -1,7 +1,7 @@
 export enum RecommendedSkillType {
   Builtin = 'builtin',
   Klavis = 'klavis',
-  Lobehub = 'lobehub',
+  ASAI = 'ASAI',
 }
 
 export interface RecommendedSkillItem {
@@ -17,9 +17,9 @@ export const RECOMMENDED_SKILLS: RecommendedSkillItem[] = [
   { id: 'lobe-task', type: RecommendedSkillType.Builtin },
   { id: 'lobe-agent-documents', type: RecommendedSkillType.Builtin },
   { id: 'lobe-message', type: RecommendedSkillType.Builtin },
-  // LobeHub skills
-  { id: 'notion', type: RecommendedSkillType.Lobehub },
-  { id: 'twitter', type: RecommendedSkillType.Lobehub },
+  // ASAI skills
+  { id: 'notion', type: RecommendedSkillType.ASAI },
+  { id: 'twitter', type: RecommendedSkillType.ASAI },
   // Klavis skills
   { id: 'gmail', type: RecommendedSkillType.Klavis },
   { id: 'google-drive', type: RecommendedSkillType.Klavis },

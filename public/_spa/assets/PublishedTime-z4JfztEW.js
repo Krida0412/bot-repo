@@ -1,5 +1,0 @@
-import{a as e,n as t}from"./rolldown-runtime-Cyuzqnbw.js";import{qt as n}from"../i18n/i18n-zh-CN-CbR0_Rok.js";import{dt as r,pt as i}from"../vendor/vendor-data-runtime-WZJuOlea.js";import{vl as a}from"../vendor/vendor-ai-runtime-uGyLq_TW.js";import{Ba as o,Ia as s,Ma as c,za as l}from"./imperative-Xfjd337A.js";var u,d,f,p,m,h,g,_=t((()=>{c(),u=e(n()),r(),d=e(a()),f=new Date().toISOString(),p=e=>{try{return e?(0,u.default)(e).toISOString():f}catch{return f}},m=(e,t,n)=>{if(n)return(0,u.default)(e).format(n);let r=(0,u.default)(e),i=(0,u.default)();return r.isSame(i,`day`)?t(`time.today`):r.isSame(i.subtract(1,`day`),`day`)?t(`time.yesterday`):r.isSame(i,`year`)?r.format(t(`time.formatThisYear`)):r.format(t(`time.formatOtherYear`))},h=s(({css:e})=>({time:e`
-      font-size: 12px;
-      color: ${l.colorTextSecondary};
-      letter-spacing: 0.02em;
-    `})),g=({date:e,style:t,className:n,template:r})=>{let{t:a}=i(`common`),s=m(e,a,r);return(0,d.jsx)(`time`,{"aria-label":`published-date`,className:o(h.time,n),dateTime:p(e),style:t,children:s})}}));export{_ as n,g as t};

@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./rolldown-runtime-Cyuzqnbw.js";import{yl as n}from"../vendor/vendor-ai-runtime-CsMkIwdb.js";import{kn as r,n as i}from"./es-B2d2bv-I.js";var a,o,s,c,l=t((()=>{i(),a=e(n()),c=(0,a.memo)(()=>{let e=r.useApp();return o=e.message,e.modal,s=e.notification,null})}));export{s as i,l as n,o as r,c as t};

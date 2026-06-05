@@ -5,7 +5,7 @@ const manifest = async (): Promise<MetadataRoute.Manifest> => {
   if (process.env.NODE_ENV === 'development') {
     return {
       background_color: '#000000',
-      description: 'LobeHub Development',
+      description: 'ASAI Development',
       display: 'standalone',
       icons: [
         {
@@ -14,8 +14,8 @@ const manifest = async (): Promise<MetadataRoute.Manifest> => {
           type: 'image/png',
         },
       ],
-      name: 'LobeHub',
-      short_name: 'LobeHub',
+      name: 'ASAI',
+      short_name: 'ASAI',
       start_url: '/',
       theme_color: '#000000',
     };
@@ -58,47 +58,47 @@ const manifest = async (): Promise<MetadataRoute.Manifest> => {
     screenshots: BRANDING_LOGO_URL
       ? []
       : [
-          {
-            form_factor: 'narrow',
-            url: '/screenshots/shot-1.mobile.png',
-          },
-          {
-            form_factor: 'narrow',
-            url: '/screenshots/shot-2.mobile.png',
-          },
-          {
-            form_factor: 'narrow',
-            url: '/screenshots/shot-3.mobile.png',
-          },
-          {
-            form_factor: 'narrow',
-            url: '/screenshots/shot-4.mobile.png',
-          },
-          {
-            form_factor: 'narrow',
-            url: '/screenshots/shot-5.mobile.png',
-          },
-          {
-            form_factor: 'wide',
-            url: '/screenshots/shot-1.desktop.png',
-          },
-          {
-            form_factor: 'wide',
-            url: '/screenshots/shot-2.desktop.png',
-          },
-          {
-            form_factor: 'wide',
-            url: '/screenshots/shot-3.desktop.png',
-          },
-          {
-            form_factor: 'wide',
-            url: '/screenshots/shot-4.desktop.png',
-          },
-          {
-            form_factor: 'wide',
-            url: '/screenshots/shot-5.desktop.png',
-          },
-        ],
+        {
+          form_factor: 'narrow',
+          url: '/screenshots/shot-1.mobile.png',
+        },
+        {
+          form_factor: 'narrow',
+          url: '/screenshots/shot-2.mobile.png',
+        },
+        {
+          form_factor: 'narrow',
+          url: '/screenshots/shot-3.mobile.png',
+        },
+        {
+          form_factor: 'narrow',
+          url: '/screenshots/shot-4.mobile.png',
+        },
+        {
+          form_factor: 'narrow',
+          url: '/screenshots/shot-5.mobile.png',
+        },
+        {
+          form_factor: 'wide',
+          url: '/screenshots/shot-1.desktop.png',
+        },
+        {
+          form_factor: 'wide',
+          url: '/screenshots/shot-2.desktop.png',
+        },
+        {
+          form_factor: 'wide',
+          url: '/screenshots/shot-3.desktop.png',
+        },
+        {
+          form_factor: 'wide',
+          url: '/screenshots/shot-4.desktop.png',
+        },
+        {
+          form_factor: 'wide',
+          url: '/screenshots/shot-5.desktop.png',
+        },
+      ],
   });
 };
 

@@ -36,7 +36,7 @@ export interface TaskTemplateSkillRequirement {
   source: TaskTemplateSkillSource;
 }
 
-export type TaskTemplateSkillSource = 'klavis' | 'lobehub';
+export type TaskTemplateSkillSource = 'klavis' | 'ASAI';
 
 export type TaskTemplateCategory =
   | 'content-creation'
@@ -96,7 +96,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'content-creation',
     cronPattern: '0 10 * * 1',
     interests: ['writing', 'creator'],
-    requiresSkills: [{ provider: 'twitter', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'twitter', source: 'ASAI' }],
   },
   {
     id: 'youtube-weekly-recap',
@@ -116,7 +116,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'content-creation',
     cronPattern: '0 20 * * 0',
     interests: ['writing', 'creator'],
-    optionalSkills: [{ provider: 'notion', source: 'lobehub' }],
+    optionalSkills: [{ provider: 'notion', source: 'ASAI' }],
   },
 
   // engineering
@@ -132,28 +132,28 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'engineering',
     cronPattern: '0 9 * * 1',
     interests: ['coding'],
-    requiresSkills: [{ provider: 'github', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'github', source: 'ASAI' }],
   },
   {
     id: 'dependency-security-weekly',
     category: 'engineering',
     cronPattern: '0 10 * * 1',
     interests: ['coding'],
-    requiresSkills: [{ provider: 'github', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'github', source: 'ASAI' }],
   },
   {
     id: 'vercel-health-weekly',
     category: 'engineering',
     cronPattern: '0 10 * * 1',
     interests: ['coding'],
-    requiresSkills: [{ provider: 'vercel', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'vercel', source: 'ASAI' }],
   },
   {
     id: 'linear-sprint-daily',
     category: 'engineering',
     cronPattern: '30 8 * * *',
     interests: ['coding', 'product'],
-    requiresSkills: [{ provider: 'linear', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'linear', source: 'ASAI' }],
   },
   {
     id: 'tech-trend-weekly',
@@ -283,7 +283,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'marketing',
     cronPattern: '0 18 * * *',
     interests: ['marketing'],
-    requiresSkills: [{ provider: 'twitter', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'twitter', source: 'ASAI' }],
   },
   {
     id: 'seo-weekly-report',
@@ -331,14 +331,14 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'product',
     cronPattern: '30 8 * * *',
     interests: ['product'],
-    requiresSkills: [{ provider: 'linear', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'linear', source: 'ASAI' }],
   },
   {
     id: 'iteration-recap-weekly',
     category: 'product',
     cronPattern: '0 17 * * 5',
     interests: ['product'],
-    requiresSkills: [{ provider: 'linear', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'linear', source: 'ASAI' }],
   },
   {
     id: 'core-metric-daily',
@@ -358,7 +358,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'product',
     cronPattern: '0 15 * * 5',
     interests: ['product'],
-    requiresSkills: [{ provider: 'notion', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'notion', source: 'ASAI' }],
   },
 
   // sales-customer
@@ -424,7 +424,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'operations',
     cronPattern: '0 16 * * 5',
     interests: ['operations'],
-    requiresSkills: [{ provider: 'linear', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'linear', source: 'ASAI' }],
   },
 
   // hr
@@ -440,7 +440,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'hr',
     cronPattern: '0 9 * * 1',
     interests: ['hr'],
-    requiresSkills: [{ provider: 'notion', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'notion', source: 'ASAI' }],
   },
   {
     id: 'team-status-weekly',
@@ -475,7 +475,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'finance-legal',
     cronPattern: '0 9 * * 1',
     interests: ['finance-legal'],
-    requiresSkills: [{ provider: 'notion', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'notion', source: 'ASAI' }],
   },
   {
     id: 'regulation-watch-weekly',
@@ -497,7 +497,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'creator',
     cronPattern: '0 9 * * *',
     interests: ['creator'],
-    requiresSkills: [{ provider: 'twitter', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'twitter', source: 'ASAI' }],
   },
   {
     id: 'brand-collab-weekly',
@@ -510,7 +510,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'creator',
     cronPattern: '0 10 * * 1',
     interests: ['creator'],
-    requiresSkills: [{ provider: 'twitter', source: 'lobehub' }],
+    requiresSkills: [{ provider: 'twitter', source: 'ASAI' }],
   },
   {
     id: 'youtube-channel-weekly',
@@ -640,7 +640,7 @@ export const taskTemplates: TaskTemplate[] = [
     category: 'personal-life',
     cronPattern: '0 22 * * *',
     interests: ['personal'],
-    optionalSkills: [{ provider: 'notion', source: 'lobehub' }],
+    optionalSkills: [{ provider: 'notion', source: 'ASAI' }],
   },
 ];
 

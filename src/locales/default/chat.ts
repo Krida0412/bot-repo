@@ -319,7 +319,7 @@ export default {
   'claudeCodeInstallGuide.installWithBrew': 'Homebrew',
   'claudeCodeInstallGuide.installWithNpm': 'Recommended install',
   'claudeCodeInstallGuide.menuNotification.title': 'Claude Code CLI not found',
-  'claudeCodeInstallGuide.reason': 'LobeHub could not start Claude Code: {{message}}',
+  'claudeCodeInstallGuide.reason': 'ASAI could not start Claude Code: {{message}}',
   'claudeCodeInstallGuide.title': 'Install Claude Code CLI',
   'cliAuthGuide.actions.openDocs': 'Open Sign-in Guide',
   'cliAuthGuide.actions.openSystemTools': 'Open System Tools',
@@ -364,7 +364,7 @@ export default {
   'codexInstallGuide.installWithBrew': 'Homebrew (macOS)',
   'codexInstallGuide.installWithNpm': 'Recommended install',
   'codexInstallGuide.menuNotification.title': 'Codex CLI not found',
-  'codexInstallGuide.reason': 'LobeHub could not start Codex: {{message}}',
+  'codexInstallGuide.reason': 'ASAI could not start Codex: {{message}}',
   'codexInstallGuide.title': 'Install Codex CLI',
   'newAgent': 'Create Agent',
   'newClaudeCodeAgent': 'Add Claude Code',
@@ -407,7 +407,7 @@ export default {
   'platformAgent.create.checkFailed': 'Check failed',
   'platformAgent.create.versionTooLow': 'lh version is too low',
   'platformAgent.create.versionTooLowHint': 'Update lh to the latest version:',
-  'platformAgent.create.upgradeCmd': 'npm install -g @lobehub/cli',
+  'platformAgent.create.upgradeCmd': 'npm install -g @ASAI/cli',
   'platformAgent.create.comingSoon': 'Coming Soon',
 
   // Platform agent device guard banner
@@ -464,7 +464,7 @@ export default {
   'chatMode.agent': 'Agent',
   'plus.search.appSearch': 'Smart Search',
   'plus.search.appSearchDesc':
-    'LobeHub optimized search service, delivering best retrieval results.',
+    'ASAI optimized search service, delivering best retrieval results.',
   'plus.search.modelSearch': 'Provider Search',
   'plus.search.modelSearchDesc': 'May cause unexpected behavior when enabled, not recommended.',
   'plus.search.off': 'Off',
@@ -600,7 +600,7 @@ export default {
   'sharePage.error.unauthorized.subtitle': 'Please sign in to view this shared topic.',
   'sharePage.error.unauthorized.title': 'Sign In Required',
   'sharePageDisclaimer':
-    'This content is shared by a user and does not represent the views of LobeHub. LobeHub is not responsible for any consequences arising from this shared content.',
+    'This content is shared by a user and does not represent the views of ASAI. ASAI is not responsible for any consequences arising from this shared content.',
   'signalCallbacks.collapse': 'Hide details',
   'signalCallbacks.empty': 'No callback messages',
   'signalCallbacks.expand': 'Show details',

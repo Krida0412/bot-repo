@@ -57,7 +57,7 @@ describe('taskTemplates', () => {
     for (const t of taskTemplates) {
       if (!t.optionalSkills) continue;
       for (const spec of t.optionalSkills) {
-        expect(['klavis', 'lobehub'], `template ${t.id} optional source`).toContain(spec.source);
+        expect(['klavis', 'ASAI'], `template ${t.id} optional source`).toContain(spec.source);
         expect(
           spec.provider.length,
           `template ${t.id} optional provider "${spec.provider}"`,

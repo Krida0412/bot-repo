@@ -8,8 +8,8 @@ LOBE_DEFAULT_MODEL_LIST.forEach((model) => {
   locales[`${model.id}.description`] = model.description;
 });
 
-// #region LobeHub online model descriptions
-const lobeHubOnlineModelLocales = {
+// #region ASAI online model descriptions
+const ASAIOnlineModelLocales = {
   'grok-4.20-beta-0309-reasoning.description':
     'Intelligent, blazing-fast model that reasons before responding',
   'grok-4.20-beta-0309-non-reasoning.description': 'A non-reasoning variant for simple use cases',
@@ -29,7 +29,7 @@ const lobeHubOnlineModelLocales = {
     'Seedance 1.5 Pro by ByteDance supports text-to-video, image-to-video (first frame, first+last frame), and audio generation synchronized with visuals.',
 } satisfies Record<`${string}.description`, string>;
 
-Object.assign(locales, lobeHubOnlineModelLocales);
+Object.assign(locales, ASAIOnlineModelLocales);
 // #endregion
 
 export default locales;

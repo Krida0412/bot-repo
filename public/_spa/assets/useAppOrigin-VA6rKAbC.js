@@ -1,1 +1,0 @@
-import{n as e}from"./rolldown-runtime-Cyuzqnbw.js";import{Rr as t}from"../vendor/vendor-ai-runtime-uGyLq_TW.js";import{i as n,t as r}from"./electron-BTFW9gEx.js";import{n as i,t as a}from"./selectors-BBRZjO5q.js";var o,s=e((()=>{t(),r(),a(),o=()=>(n(i.remoteServerUrl),window.location.origin)}));export{o as n,s as t};

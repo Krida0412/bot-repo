@@ -1,28 +1,43 @@
-import { BrandLoading, LobeHubText } from '@lobehub/ui/brand';
+import { BrandLoading } from '@lobehub/ui/brand';
 
-import { isCustomBranding } from '@/const/version';
-
-import CircleLoading from '../CircleLoading';
 import styles from './index.module.css';
 
 interface BrandTextLoadingProps {
   debugId: string;
 }
 
-const BrandTextLoading = ({ debugId }: BrandTextLoadingProps) => {
-  if (isCustomBranding)
-    return (
-      <div className={styles.container}>
-        <CircleLoading />
-      </div>
-    );
+// Custom ASAI text component that mimics BrandLoading text style
+const AsaiText = () => (
+  <svg
+    fill="currentColor"
+    height="24"
+    style={{ flex: 'none' }}
+    viewBox="0 0 120 40"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <text
+      dominantBaseline="central"
+      fill="currentColor"
+      fontFamily="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif"
+      fontSize="32"
+      fontWeight="700"
+      letterSpacing="3"
+      textAnchor="middle"
+      x="60"
+      y="22"
+    >
+      ASAI
+    </text>
+  </svg>
+);
 
+const BrandTextLoading = ({ debugId }: BrandTextLoadingProps) => {
   const showDebug = process.env.NODE_ENV === 'development' && debugId;
 
   return (
     <div className={styles.container}>
       <div aria-label="Loading" className={styles.brand} role="status">
-        <BrandLoading size={40} text={LobeHubText} />
+        <BrandLoading size={40} text={AsaiText} />
       </div>
       {showDebug && (
         <div className={styles.debug}>
