@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Cyuzqnbw.js";var t;e((()=>{t=async(e,t,n)=>fetch(e,t)}))();export{t as ssrfSafeFetch};

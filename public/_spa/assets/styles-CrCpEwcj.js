@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Cyuzqnbw.js";var t,n=e((()=>{t={compose:(...e)=>Object.assign({},...e.filter(Boolean)),create:e=>e}}));export{n,t};

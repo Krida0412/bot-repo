@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./rolldown-runtime-Cyuzqnbw.js";import{vl as n}from"../vendor/vendor-ai-runtime-uGyLq_TW.js";import{n as r,o as i}from"../vendor/vendor-react-D1dBs3e7.js";var a,o;t((()=>{r(),a=e(n()),o=()=>(0,a.jsx)(i,{replace:!0,to:`/settings`})}))();export{o as default};

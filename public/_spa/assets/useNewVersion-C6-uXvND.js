@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Cyuzqnbw.js";import{r as t,t as n}from"./global-D_2Rs4fY.js";import{d as r,s as i,t as a}from"./serverConfig-BWsHRSvm.js";var o,s=e((()=>{n(),a(),o=()=>{let[e,n]=t(e=>[e.hasNewVersion,e.useCheckLatestVersion]),{enableCheckUpdates:a}=i(r);return n(a),e}}));export{o as n,s as t};

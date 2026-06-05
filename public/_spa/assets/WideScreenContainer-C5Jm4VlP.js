@@ -1,0 +1,5 @@
+import{a as e,n as t}from"./rolldown-runtime-Cyuzqnbw.js";import{Js as n,vl as r,yl as i}from"../vendor/vendor-ai-runtime-uGyLq_TW.js";import{Aa as a,Ba as o,Ia as s,Ma as c,za as l}from"./imperative-Xfjd337A.js";import{n as u}from"./es-2ZVhpwv7.js";import{t as d}from"./fast-deep-equal-MG-n9E1a.js";import{d as f,r as p,t as m}from"./global-D_2Rs4fY.js";import{t as h}from"./selectors-BaC4ALp4.js";var g,_,v,y,b,x=t((()=>{u(),c(),g=e(d()),_=e(i()),n(),m(),h(),v=e(r()),y=s(({css:e})=>({container:e`
+    flex-grow: 1;
+    align-self: center;
+    transition: width 0.25s ${l.motionEaseInOut};
+  `})),b=(0,_.memo)(({children:e,className:t,onChange:n,wrapperStyle:r,onClick:i,minWidth:s,...c})=>{let l=p(f.wideScreen);return(0,_.useEffect)(()=>{n?.()},[l]),(0,v.jsx)(a,{style:r,width:`100%`,onClick:i,children:(0,v.jsx)(a,{className:o(y.container,t),paddingInline:16,width:l?`100%`:`min(${s||960}px, 100%)`,...c,children:e})})},g.default)}));export{x as n,b as t};

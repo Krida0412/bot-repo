@@ -58,7 +58,7 @@ bun.lockb
 
 # Build outputs
 dist/
-public/_spa/
+# public/_spa/ — committed for Vercel (SPA pre-built locally)
 public/spa/
 es/
 lib/
@@ -91,7 +91,7 @@ public/sw*
 public/swe-worker*
 
 # Generated files
-src/app/spa/[variants]/[[...path]]/spaHtmlTemplates.ts
+# src/app/spa/[variants]/[[...path]]/spaHtmlTemplates.ts — committed for Vercel
 public/*.js
 public/sitemap.xml
 public/sitemap-index.xml
@@ -142,7 +142,7 @@ i18n-unused-keys-report.json
 
 pnpm-lock.yaml
 .turbo
-spaHtmlTemplates.ts
+# spaHtmlTemplates.ts — committed for Vercel
 
 # Embedded CLI bundle (built at pack time)
 apps/desktop/resources/bin/lobe-cli.js

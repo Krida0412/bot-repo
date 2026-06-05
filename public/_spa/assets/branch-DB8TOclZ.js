@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Cyuzqnbw.js";import{Er as t}from"../i18n/i18n-default-Ib49YEbx.js";var n,r,i=e((()=>{t(),n=`/onboarding/classic`,r=({enableAgentOnboarding:e,isDesktop:t})=>n}));export{i as n,r as t};

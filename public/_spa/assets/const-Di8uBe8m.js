@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Cyuzqnbw.js";var t,n,r=e((()=>{t=1440,n=`discover-scroll`}));export{n,r,t};
