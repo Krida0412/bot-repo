@@ -39,7 +39,13 @@ jobs:
       - name: Create .env for build (sensitive vars not pulled by vercel)
         env:
           DOTENV: ${{ secrets.DOTENV_PRODUCTION }}
-        run: printf '%s\n' "$DOTENV" > .env
+        run: |
+          printf '%s\n' "$DOTENV" > .env
+          # vercel build feeds .vercel/.env.production.local to the build
+          # command's process env; sensitive vars come back blank from
+          # `vercel pull`, so append our full env to override them.
+          mkdir -p .vercel
+          printf '%s\n' "$DOTENV" >> .vercel/.env.production.local
 
       - name: Build (Next.js prebuilt output)
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
