@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "Połącz z {{provider}}",
   "action.connect.error": "Połączenie nie powiodło się, spróbuj ponownie.",
   "action.connect.popupBlocked": "Wyskakujące okienko połączenia zostało zablokowane. Zezwól na wyskakujące okienka w przeglądarce, aby kontynuować.",

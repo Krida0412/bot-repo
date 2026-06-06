@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "اتصال به {{provider}}",
   "action.connect.error": "اتصال ناموفق بود، لطفاً دوباره تلاش کنید.",
   "action.connect.popupBlocked": "پنجره پاپ‌آپ اتصال مسدود شده است. برای ادامه، پاپ‌آپ‌ها را در مرورگر خود مجاز کنید.",

@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "承認",
   "consent.buttons.deny": "拒否",
   "consent.description": "アプリケーション {{clientName}} があなたのアカウントの承認を要求しています",

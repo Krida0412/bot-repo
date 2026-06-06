@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "01.AI’s latest open-source fine-tuned model with 34B parameters, supporting multiple dialogue scenarios, trained on high-quality data and aligned with human preferences.",
   "01-ai/yi-1.5-9b-chat.description": "01.AI’s latest open-source fine-tuned model with 9B parameters, supporting multiple dialogue scenarios, trained on high-quality data and aligned with human preferences.",
   "360/deepseek-r1.description": "360-deployed DeepSeek-R1 uses large-scale RL in post-training to greatly boost reasoning with minimal labels. It matches OpenAI o1 on math, code, and natural language reasoning tasks.",

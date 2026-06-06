@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "充值积分余额",
   "balance.hobbyDesc": "{{hobby}} 不包含订阅积分，您需要配置模型 API 或进行充值",
   "balance.link.history": "充值记录",

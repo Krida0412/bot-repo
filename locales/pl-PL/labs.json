@@ -1,4 +1,4 @@
-﻿{
+{
   "features.agentDocumentFloatingChatPanel.desc": "Pokaż pływający panel czatu w podglądzie dokumentu agenta tylko wtedy, gdy ta funkcja laboratoryjna jest włączona.",
   "features.agentDocumentFloatingChatPanel.title": "Pływający Panel Czatu Dokumentu Agenta",
   "features.agentSelfIteration.desc": "Pozwala asystentowi na refleksję, budowanie samoświadomości oraz ciągłe doskonalenie poprzez kolejne próby i interakcje.",

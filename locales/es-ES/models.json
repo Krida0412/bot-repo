@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "El modelo ajustado de código abierto más reciente de 01.AI con 34 mil millones de parámetros, compatible con múltiples escenarios de diálogo, entrenado con datos de alta calidad y alineado con las preferencias humanas.",
   "01-ai/yi-1.5-9b-chat.description": "El modelo ajustado de código abierto más reciente de 01.AI con 9 mil millones de parámetros, compatible con múltiples escenarios de diálogo, entrenado con datos de alta calidad y alineado con las preferencias humanas.",
   "360/deepseek-r1.description": "DeepSeek-R1, desplegado a gran escala por 360, utiliza aprendizaje por refuerzo (RL) en la etapa de postentrenamiento para mejorar significativamente el razonamiento con una mínima cantidad de datos etiquetados. Alcanza el nivel del modelo OpenAI o1 en tareas de matemáticas, programación y razonamiento en lenguaje natural.",

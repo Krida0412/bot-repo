@@ -1,4 +1,4 @@
-﻿export default {
+export default {
   '_cloud.officialProvider': '{{name}} Official Model Service',
   'about.title': 'About',
   'accountDeletion.cancelButton': 'Cancel Deletion',

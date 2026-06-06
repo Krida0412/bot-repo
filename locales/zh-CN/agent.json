@@ -1,4 +1,4 @@
-﻿{
+{
   "channel.allowFrom": "允许的用户",
   "channel.allowFromAdd": "添加用户",
   "channel.allowFromEmpty": "尚未添加任何用户——任何人都可以与机器人交互。",

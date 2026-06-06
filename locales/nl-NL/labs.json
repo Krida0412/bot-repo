@@ -1,4 +1,4 @@
-﻿{
+{
   "features.agentDocumentFloatingChatPanel.desc": "Toon het zwevende chatpaneel in de documentvoorvertoning van de agent alleen wanneer deze labfunctie is ingeschakeld.",
   "features.agentDocumentFloatingChatPanel.title": "Zwevend Chatpaneel voor Agentdocumenten",
   "features.agentSelfIteration.desc": "De assistent kan hierdoor reflecteren, zelfinzicht opbouwen en zich continu blijven verbeteren via aanhoudende pogingen en interacties.",

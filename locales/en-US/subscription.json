@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "Top-up Credits Balance",
   "balance.hobbyDesc": "{{hobby}} does not include subscription credits, you need to configure model API or top up",
   "balance.link.history": "Top-up History",

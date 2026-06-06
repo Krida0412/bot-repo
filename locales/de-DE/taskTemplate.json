@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "Verbinden mit {{provider}}",
   "action.connect.error": "Verbindung fehlgeschlagen, bitte versuchen Sie es erneut.",
   "action.connect.popupBlocked": "Verbindungspopup blockiert. Erlauben Sie Popups in Ihrem Browser, um fortzufahren.",

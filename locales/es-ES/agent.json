@@ -1,4 +1,4 @@
-﻿{
+{
   "channel.allowFrom": "Usuarios permitidos",
   "channel.allowFromAdd": "Agregar usuario",
   "channel.allowFromEmpty": "Aún no se han añadido usuarios — cualquiera puede interactuar con el bot.",

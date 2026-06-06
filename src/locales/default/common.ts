@@ -1,4 +1,4 @@
-﻿export default {
+export default {
   'about': 'About',
   'advanceSettings': 'Advanced Settings',
   'alert.cloud.action': 'Try now',

@@ -1,4 +1,4 @@
-﻿{
+{
   "arguments.moreParams": "合計で{{count}}個のパラメーターがあります",
   "arguments.title": "パラメーター一覧",
   "builtins.lobe-activator.apiName.activateTools": "ツールをアクティブ化",

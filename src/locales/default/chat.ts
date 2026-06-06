@@ -1,4 +1,4 @@
-﻿export default {
+export default {
   'ModelSwitch.title': 'Model',
   'active': 'Active',
   'agentBuilder.installPlugin.authRequired': 'Cloud MCP requires sign-in to continue',

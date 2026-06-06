@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "Model chat fine-tuned sumber terbuka terbaru dari 01.AI dengan 34B parameter. Model ini mendukung berbagai skenario dialog, dilatih menggunakan data berkualitas tinggi, dan diselaraskan dengan preferensi manusia.",
   "01-ai/yi-1.5-9b-chat.description": "Model chat fine-tuned sumber terbuka terbaru dari 01.AI dengan 9B parameter. Model ini mendukung berbagai skenario dialog, dilatih menggunakan data berkualitas tinggi, dan diselaraskan dengan preferensi manusia.",
   "360/deepseek-r1.description": "DeepSeek-R1 yang di-deploy oleh 360 menggunakan reinforcement learning skala besar pada tahap pascapelatihan untuk meningkatkan kemampuan penalaran secara signifikan dengan label data minimal. Model ini menyamai OpenAI o1 pada tugas matematika, coding, dan penalaran bahasa alami.",

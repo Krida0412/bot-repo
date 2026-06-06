@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "اتصل بـ {{provider}}",
   "action.connect.error": "فشل الاتصال، يرجى المحاولة مرة أخرى.",
   "action.connect.popupBlocked": "تم حظر نافذة الاتصال المنبثقة. اسمح بالنوافذ المنبثقة في متصفحك للمتابعة.",

@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "Mô hình mã nguồn mở mới nhất của 01.AI với 34 tỷ tham số, hỗ trợ nhiều tình huống hội thoại, được huấn luyện trên dữ liệu chất lượng cao và điều chỉnh theo sở thích của con người.",
   "01-ai/yi-1.5-9b-chat.description": "Mô hình mã nguồn mở mới nhất của 01.AI với 9 tỷ tham số, hỗ trợ nhiều tình huống hội thoại, được huấn luyện trên dữ liệu chất lượng cao và điều chỉnh theo sở thích của con người.",
   "360/deepseek-r1.description": "DeepSeek-R1 do 360 triển khai sử dụng học tăng cường quy mô lớn trong giai đoạn hậu huấn luyện để tăng cường khả năng suy luận với lượng nhãn tối thiểu. Mô hình đạt hiệu suất tương đương OpenAI o1 trong các bài toán toán học, lập trình và suy luận ngôn ngữ tự nhiên.",

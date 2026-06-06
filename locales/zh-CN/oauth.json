@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "授权",
   "consent.buttons.deny": "拒绝",
   "consent.description": "应用 {{clientName}} 申请你的账户授权",

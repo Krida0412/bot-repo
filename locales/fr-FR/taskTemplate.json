@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "Connecter {{provider}}",
   "action.connect.error": "Échec de la connexion, veuillez réessayer.",
   "action.connect.popupBlocked": "Fenêtre contextuelle de connexion bloquée. Autorisez les fenêtres contextuelles dans votre navigateur pour continuer.",

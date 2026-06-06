@@ -1,4 +1,4 @@
-﻿export default {
+export default {
   'action.connect.button': 'Connect {{provider}}',
   'action.connect.error': 'Connection failed, please try again.',
   'action.connect.popupBlocked':

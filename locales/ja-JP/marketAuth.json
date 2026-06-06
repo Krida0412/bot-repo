@@ -1,4 +1,4 @@
-﻿{
+{
   "authorize.cancel": "後で行う",
   "authorize.confirm": "プロフィールを作成する",
   "authorize.description": "あなたのコミュニティプロフィールは、{{appName}} のユーザーアカウントとは独立しています。",

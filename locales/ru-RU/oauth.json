@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "Разрешить",
   "consent.buttons.deny": "Отклонить",
   "consent.description": "Приложение {{clientName}} запрашивает доступ к вашему аккаунту",

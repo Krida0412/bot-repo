@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "连接 {{provider}}",
   "action.connect.error": "连接失败，请重试。",
   "action.connect.popupBlocked": "连接弹出窗口被阻止。请在浏览器中允许弹出窗口以继续。",

@@ -1,4 +1,4 @@
-﻿{
+{
   "AccountDeactivated": "Il tuo account è stato disattivato o sospeso. Questo potrebbe essere dovuto a motivi di politica, sicurezza o revisione dell'account. Contatta l'assistenza del provider per ricevere supporto.",
   "AgentRuntimeError": "Errore di esecuzione del runtime del modello linguistico ASAI. Risolvi il problema o riprova basandoti sulle informazioni seguenti.",
   "CapabilityNotSupported": "Spiacenti, questo modello non supporta la funzionalità richiesta (come input visivo o chiamata di strumenti). Passa a un modello che la supporta.",

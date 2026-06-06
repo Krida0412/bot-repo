@@ -1,4 +1,4 @@
-﻿{
+{
   "AccountDeactivated": "Votre compte a été désactivé ou suspendu. Cela peut être dû à des raisons de politique, de sécurité ou de révision de compte. Veuillez contacter le support du fournisseur pour obtenir de l'aide.",
   "AgentRuntimeError": "Erreur d'exécution du modèle de langage ASAI. Veuillez résoudre le problème ou réessayer en fonction des informations suivantes.",
   "CapabilityNotSupported": "Désolé, ce modèle ne prend pas en charge la fonctionnalité demandée (comme l'entrée visuelle ou l'appel d'outils). Veuillez passer à un modèle qui la prend en charge.",

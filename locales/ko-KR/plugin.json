@@ -1,4 +1,4 @@
-﻿{
+{
   "arguments.moreParams": "총 {{count}}개의 매개변수가 있습니다",
   "arguments.title": "매개변수 목록",
   "builtins.lobe-activator.apiName.activateTools": "도구 활성화",

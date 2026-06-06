@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "Kết nối {{provider}}",
   "action.connect.error": "Kết nối thất bại, vui lòng thử lại.",
   "action.connect.popupBlocked": "Cửa sổ bật lên kết nối bị chặn. Cho phép cửa sổ bật lên trong trình duyệt của bạn để tiếp tục.",

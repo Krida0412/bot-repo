@@ -1,4 +1,4 @@
-﻿{
+{
   "AccountDeactivated": "Hesabınız devre dışı bırakıldı veya askıya alındı. Bu durum politika, güvenlik veya hesap inceleme nedenlerinden kaynaklanıyor olabilir. Yardım için lütfen sağlayıcı desteğiyle iletişime geçin.",
   "AgentRuntimeError": "ASAI dil modeli çalışma zamanı yürütme hatası. Lütfen aşağıdaki bilgilere dayanarak sorun giderin veya yeniden deneyin.",
   "CapabilityNotSupported": "Üzgünüz, bu model istenen özelliği (örneğin, görsel girdi veya araç çağırma) desteklemiyor. Lütfen bu özelliği destekleyen bir modele geçin.",

@@ -1,4 +1,4 @@
-﻿{
+{
   "authResult.failed.desc": "请重试，或切换其他登录方式",
   "authResult.failed.title": "授权失败",
   "authResult.success.desc": "点击下方「开始」继续使用 ASAI 桌面端",

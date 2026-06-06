@@ -1,4 +1,4 @@
-﻿{
+{
   "authorize.cancel": "暂不授权",
   "authorize.confirm": "创建你的档案",
   "authorize.description": "你的社区个人档案独立于 {{appName}} 用户帐号而存在。",

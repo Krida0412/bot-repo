@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "Das neueste quelloffene, feinabgestimmte Modell von 01.AI mit 34 Milliarden Parametern, das verschiedene Dialogszenarien unterstützt. Es wurde mit hochwertigen Daten trainiert und auf menschliche Präferenzen abgestimmt.",
   "01-ai/yi-1.5-9b-chat.description": "Das neueste quelloffene, feinabgestimmte Modell von 01.AI mit 9 Milliarden Parametern, das verschiedene Dialogszenarien unterstützt. Es wurde mit hochwertigen Daten trainiert und auf menschliche Präferenzen abgestimmt.",
   "360/deepseek-r1.description": "Das von 360 eingesetzte DeepSeek-R1 nutzt großflächiges Reinforcement Learning in der Nachtrainingsphase, um das logische Denken mit minimaler Beschriftung deutlich zu verbessern. Es erreicht vergleichbare Leistungen wie OpenAI o1 bei Aufgaben in Mathematik, Programmierung und Sprachverständnis.",

@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "Il più recente modello open-source di 01.AI, ottimizzato con 34 miliardi di parametri. Supporta molteplici scenari di dialogo, è addestrato su dati di alta qualità e allineato alle preferenze umane.",
   "01-ai/yi-1.5-9b-chat.description": "Il più recente modello open-source di 01.AI, ottimizzato con 9 miliardi di parametri. Supporta molteplici scenari di dialogo, è addestrato su dati di alta qualità e allineato alle preferenze umane.",
   "360/deepseek-r1.description": "DeepSeek-R1 distribuito su 360 utilizza l'apprendimento per rinforzo su larga scala nella fase di post-addestramento per migliorare notevolmente il ragionamento con un numero minimo di etichette. Raggiunge le prestazioni del modello OpenAI o1 nei compiti di matematica, programmazione e ragionamento in linguaggio naturale.",

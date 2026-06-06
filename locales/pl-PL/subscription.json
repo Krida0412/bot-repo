@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "Saldo doładowań",
   "balance.hobbyDesc": "{{hobby}} nie zawiera kredytów z subskrypcji, musisz skonfigurować API modelu lub doładować konto",
   "balance.link.history": "Historia doładowań",

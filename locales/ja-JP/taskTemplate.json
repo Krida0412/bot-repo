@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "{{provider}}に接続",
   "action.connect.error": "接続に失敗しました。もう一度お試しください。",
   "action.connect.popupBlocked": "接続ポップアップがブロックされました。続行するには、ブラウザでポップアップを許可してください。",

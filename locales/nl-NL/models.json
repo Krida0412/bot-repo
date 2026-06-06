@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "Het nieuwste open-source model van 01.AI met 34 miljard parameters, geoptimaliseerd voor diverse dialoogscenario’s. Het is getraind op hoogwaardige data en afgestemd op menselijke voorkeuren.",
   "01-ai/yi-1.5-9b-chat.description": "Het nieuwste open-source model van 01.AI met 9 miljard parameters, geoptimaliseerd voor diverse dialoogscenario’s. Het is getraind op hoogwaardige data en afgestemd op menselijke voorkeuren.",
   "360/deepseek-r1.description": "DeepSeek-R1, ingezet door 360, gebruikt grootschalige reinforcement learning in de post-trainingfase om redeneervermogen sterk te verbeteren met minimale labeling. Het presteert vergelijkbaar met OpenAI o1 op wiskunde-, codeer- en taalredeneertaken.",

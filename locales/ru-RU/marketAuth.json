@@ -1,4 +1,4 @@
-﻿{
+{
   "authorize.cancel": "Не сейчас",
   "authorize.confirm": "Создать профиль",
   "authorize.description": "Ваш профиль сообщества отличается от вашей учетной записи пользователя {{appName}}.",

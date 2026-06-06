@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "Yetkilendir",
   "consent.buttons.deny": "Reddet",
   "consent.description": "{{clientName}} uygulaması hesabınız için yetkilendirme talep ediyor",

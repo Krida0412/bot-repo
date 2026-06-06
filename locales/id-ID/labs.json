@@ -1,4 +1,4 @@
-﻿{
+{
   "features.agentDocumentFloatingChatPanel.desc": "Tampilkan panel chat mengambang di pratinjau dokumen agent hanya saat fitur lab ini diaktifkan.",
   "features.agentDocumentFloatingChatPanel.title": "Panel Chat Mengambang Dokumen Agent",
   "features.agentSelfIteration.desc": "Izinkan asisten untuk merefleksikan diri, membangun kesadaran diri, dan terus beriterasi melalui percobaan dan interaksi yang berlangsung.",

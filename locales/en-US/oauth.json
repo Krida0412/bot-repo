@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "Authorize",
   "consent.buttons.deny": "Deny",
   "consent.description": "The application {{clientName}} is requesting authorization for your account",

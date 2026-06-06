@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "Conectar {{provider}}",
   "action.connect.error": "Conexão falhou, por favor tente novamente.",
   "action.connect.popupBlocked": "Popup de conexão bloqueado. Permita popups no seu navegador para continuar.",

@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "01.AI’nin en son açık kaynaklı, 34 milyar parametreli ince ayarlı modeli; çoklu diyalog senaryolarını destekler, yüksek kaliteli verilerle eğitilmiştir ve insan tercihleriyle uyumludur.",
   "01-ai/yi-1.5-9b-chat.description": "01.AI’nin en son açık kaynaklı, 9 milyar parametreli ince ayarlı modeli; çoklu diyalog senaryolarını destekler, yüksek kaliteli verilerle eğitilmiştir ve insan tercihleriyle uyumludur.",
   "360/deepseek-r1.description": "360 tarafından dağıtılan DeepSeek-R1, son eğitim aşamasında büyük ölçekli pekiştirmeli öğrenme (RL) kullanarak çok az etiketli veriyle akıl yürütme yeteneğini büyük ölçüde artırır. Matematik, kodlama ve doğal dil akıl yürütme görevlerinde OpenAI o1 ile eşleşir.",

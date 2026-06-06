@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "충전 크레딧 잔액",
   "balance.hobbyDesc": "{{hobby}}에는 구독 크레딧이 포함되지 않으며, 모델 API를 설정하거나 크레딧을 충전해야 합니다",
   "balance.link.history": "충전 내역",

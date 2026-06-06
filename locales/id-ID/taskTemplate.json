@@ -1,4 +1,4 @@
-﻿{
+{
   "action.connect.button": "Hubungkan {{provider}}",
   "action.connect.error": "Koneksi gagal, silakan coba lagi.",
   "action.connect.popupBlocked": "Popup koneksi diblokir. Izinkan popup di browser Anda untuk melanjutkan.",

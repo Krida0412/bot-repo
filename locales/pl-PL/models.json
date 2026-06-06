@@ -1,4 +1,4 @@
-﻿{
+{
   "01-ai/yi-1.5-34b-chat.description": "Najnowszy otwartoźródłowy model 01.AI z 34 miliardami parametrów, dostrojony do różnych scenariuszy dialogowych, trenowany na wysokiej jakości danych i dostosowany do preferencji użytkowników.",
   "01-ai/yi-1.5-9b-chat.description": "Najnowszy otwartoźródłowy model 01.AI z 9 miliardami parametrów, dostrojony do różnych scenariuszy dialogowych, trenowany na wysokiej jakości danych i dostosowany do preferencji użytkowników.",
   "360/deepseek-r1.description": "DeepSeek-R1 wdrożony przez 360 wykorzystuje skalowane uczenie przez wzmocnienie (RL) w fazie post-treningowej, znacząco poprawiając zdolności rozumowania przy minimalnym oznakowaniu danych. Dorównuje modelowi OpenAI o1 w zadaniach z matematyki, programowania i rozumowania językowego.",

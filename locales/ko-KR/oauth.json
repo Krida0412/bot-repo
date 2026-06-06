@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "허용",
   "consent.buttons.deny": "거부",
   "consent.description": "{{clientName}} 애플리케이션이 귀하의 계정 권한을 요청하고 있습니다",

@@ -1,4 +1,4 @@
-﻿export default {
+export default {
   'activity.actions.delete': 'Delete',
   'activity.actions.edit': 'Edit',
   'activity.defaultType': 'Activity',

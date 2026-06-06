@@ -1,4 +1,4 @@
-﻿{
+{
   "consent.buttons.accept": "Autorizar",
   "consent.buttons.deny": "Negar",
   "consent.description": "O aplicativo {{clientName}} está solicitando autorização para acessar sua conta",

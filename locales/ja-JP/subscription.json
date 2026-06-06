@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "チャージクレジット残高",
   "balance.hobbyDesc": "{{hobby}} にはサブスクリプションクレジットが含まれていません。モデルAPIの設定またはチャージが必要です",
   "balance.link.history": "チャージ履歴",

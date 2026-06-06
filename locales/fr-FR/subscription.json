@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "Solde des crédits prépayés",
   "balance.hobbyDesc": "{{hobby}} n'inclut pas les crédits d'abonnement, vous devez configurer une API de modèle ou recharger",
   "balance.link.history": "Historique des recharges",

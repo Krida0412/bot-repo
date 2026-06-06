@@ -1,4 +1,4 @@
-﻿{
+{
   "balance.creditBalance": "Saldo Crediti Ricaricati",
   "balance.hobbyDesc": "{{hobby}} non include crediti dell'abbonamento, è necessario configurare l'API del modello o effettuare una ricarica",
   "balance.link.history": "Storico Ricariche",
