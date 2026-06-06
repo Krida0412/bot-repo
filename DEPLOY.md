@@ -1,70 +1,56 @@
 # Panduan Deploy & Maintenance
 
-## Arsitektur Build
+## Arsitektur Deploy (GitHub Actions → Vercel)
 
-Aplikasi ini terdiri dari 2 bagian:
+Deploy berjalan lewat **GitHub Actions** (`.github/workflows/deploy.yml`), BUKAN
+build langsung di Vercel. Alasannya:
 
-| Bagian | Build tool | Di mana di-build | Kenapa |
-|--------|-----------|------------------|--------|
-| **SPA (frontend/UI)** | Vite | Lokal (PC kamu) | Butuh RAM > 8GB, Vercel gak kuat |
-| **Next.js (backend/API)** | Next.js | Vercel | Cukup ringan, muat di Vercel |
+- Vercel Hobby cuma 8GB RAM → `next build` selalu **OOM** (gagal).
+- Build lokal Windows kena bug `spawn cmd.exe ENOENT` di `vercel build`.
 
-SPA yang sudah di-build disimpan di `public/_spa/` dan di-commit ke git.
-Vercel hanya menjalankan `next build` + `db:migrate`.
+Solusinya: build jalan di **runner GitHub (16GB RAM, repo harus PUBLIC)**, lalu
+hasil prebuild-nya di-upload ke Vercel pakai `vercel deploy --prebuilt`.
 
----
+### Alur tiap `git push` ke `main`:
+1. GitHub Actions checkout + `pnpm install`
+2. `vercel pull` ambil setting project
+3. Inject `.env` produksi dari secret `DOTENV_PRODUCTION` (termasuk var Sensitive
+   yang tidak ikut ke-pull)
+4. `vercel build --prod` → compile SPA (Vite) + Next.js jadi `.vercel/output`
+5. `vercel deploy --prebuilt --prod --archive=tgz` → upload ke Vercel
 
-## Kapan Perlu Build Ulang SPA (Lokal)
-
-**HANYA jika kamu mengubah file-file ini:**
-- `src/routes/` — halaman/page
-- `src/features/` — komponen fitur
-- `src/components/` — komponen UI
-- `src/store/` — state management
-- `src/spa/` — entry point & router
-- `src/styles/` — styling
-- `src/hooks/` — custom hooks
-- `src/locales/` — terjemahan
-- `packages/` — shared packages
-
-**TIDAK perlu build ulang SPA jika:**
-- Hanya ubah environment variables
-- Hanya ubah `src/app/` (backend API routes)
-- Hanya ubah `src/server/` (server logic)
-- Hanya ubah database migrations
+> **Vercel auto-build dimatikan** (Settings → Git → Ignored Build Step = `exit 0`)
+> supaya Vercel tidak ikut build sendiri (yang pasti OOM).
 
 ---
 
-## Cara Build Ulang SPA
+## Cara Deploy Perubahan (Apapun)
 
-Jalankan di terminal (di folder project ini):
-
-```bash
-# 1. Build SPA
-bun run build:spa:raw
-
-# 2. Copy hasil build ke public/_spa
-bun run build:spa:copy
-
-# 3. Commit & push
-git add -A
-git commit -m "🔄 rebuild SPA"
-git push
-```
-
-Vercel akan otomatis redeploy setelah push.
-
----
-
-## Cara Deploy Perubahan Backend (Tanpa Rebuild SPA)
-
-Cukup:
+Cukup commit + push ke `main`. GitHub Actions otomatis build & deploy:
 
 ```bash
 git add -A
 git commit -m "pesan commit"
 git push
 ```
+
+Pantau progress di tab **Actions** repo GitHub. Build penuh makan ~5-8 menit.
+
+> Tidak perlu lagi build SPA manual di lokal — runner GitHub yang urus semua.
+
+---
+
+## Secret & Env yang Dibutuhkan
+
+**GitHub repo secrets** (Settings → Secrets and variables → Actions):
+
+| Secret | Isi |
+|--------|-----|
+| `VERCEL_TOKEN` | Token dari vercel.com/account/settings/tokens |
+| `DOTENV_PRODUCTION` | Seluruh isi `.env` produksi (APP_URL = domain Vercel) |
+
+Kalau ada perubahan env produksi, update **dua tempat**: secret `DOTENV_PRODUCTION`
+(untuk build) DAN Environment Variables di Vercel dashboard (untuk runtime).
 
 ---
 
