@@ -80,26 +80,16 @@ export const useMenu = () => {
     },
     ...(userPanel.showMemory
       ? [
-          {
-            icon: <Icon icon={BrainCircuit} />,
-            key: 'memory',
-            label: <Link to="/memory">{t('tab.memory')}</Link>,
-          },
-        ]
+        {
+          icon: <Icon icon={BrainCircuit} />,
+          key: 'memory',
+          label: <Link to="/memory">{t('tab.memory')}</Link>,
+        },
+      ]
       : []),
   ];
 
-  const getDesktopApp: MenuProps['items'] = [
-    {
-      icon: <Icon icon={Download} />,
-      key: 'get-desktop-app',
-      label: (
-        <a href={downloadUrl} rel="noopener noreferrer" target="_blank">
-          {t('getDesktopApp')}
-        </a>
-      ),
-    },
-  ];
+  const getDesktopApp: MenuProps['items'] = [];
 
   const helps: MenuProps['items'] = [
     showCloudPromotion && {
@@ -127,15 +117,15 @@ export const useMenu = () => {
     ...(!isDesktop ? [{ type: 'divider' as const }, ...getDesktopApp] : []),
     ...(userPanel.showDataImporter && isLogin
       ? [
-          {
-            icon: <Icon icon={HardDriveDownload} />,
-            key: 'import',
-            label: <DataImporter>{t('importData')}</DataImporter>,
-          },
-          {
-            type: 'divider' as const,
-          },
-        ]
+        {
+          icon: <Icon icon={HardDriveDownload} />,
+          key: 'import',
+          label: <DataImporter>{t('importData')}</DataImporter>,
+        },
+        {
+          type: 'divider' as const,
+        },
+      ]
       : []),
     ...(!hideDocs ? helps : []),
   ]
@@ -149,15 +139,15 @@ export const useMenu = () => {
 
   const logoutItems: MenuProps['items'] = isLoginWithAuth
     ? [
-        {
-          icon: <Icon icon={LogOut} />,
-          key: 'logout',
-          label: <span>{t('signout', { ns: 'auth' })}</span>,
-        },
-        {
-          type: 'divider',
-        },
-      ]
+      {
+        icon: <Icon icon={LogOut} />,
+        key: 'logout',
+        label: <span>{t('signout', { ns: 'auth' })}</span>,
+      },
+      {
+        type: 'divider',
+      },
+    ]
     : [];
 
   return { logoutItems, mainItems };

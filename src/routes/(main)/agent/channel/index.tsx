@@ -50,19 +50,12 @@ const ChannelPage = memo(() => {
 
   const isLoading = platformsLoading || providersLoading;
 
-  // Merge server-side platforms with frontend-only coming-soon entries.
-  // Coming-soon entries shadow a server-registered platform of the same id, so a
-  // platform can be registered server-side first and stay a placeholder until
-  // the frontend reveals it. iMessage additionally honors the Labs
-  // `enableImessage` preference: off keeps the placeholder, on drops it so the
-  // real platform shows.
+  // Only show supported platforms: Discord, Telegram, Slack
+  const ALLOWED_PLATFORMS = new Set(['discord', 'telegram', 'slack']);
+
   const allPlatforms = useMemo<ChannelPlatformDefinition[]>(() => {
-    const comingSoon = enableImessage
-      ? COMING_SOON_PLATFORMS.filter((p) => p.id !== 'imessage')
-      : COMING_SOON_PLATFORMS;
-    const comingSoonIds = new Set(comingSoon.map((p) => p.id));
-    return [...(platforms ?? []).filter((p) => !comingSoonIds.has(p.id)), ...comingSoon];
-  }, [platforms, enableImessage]);
+    return (platforms ?? []).filter((p) => ALLOWED_PLATFORMS.has(p.id));
+  }, [platforms]);
 
   // Default to first platform once loaded
   const effectiveActiveId = activeProviderId || allPlatforms[0]?.id || '';
@@ -75,7 +68,7 @@ const ChannelPage = memo(() => {
           .map((provider) => [
             provider.platform,
             ((provider as any).runtimeStatus as BotRuntimeStatus) ??
-              BOT_RUNTIME_STATUSES.disconnected,
+            BOT_RUNTIME_STATUSES.disconnected,
           ]),
       ),
     [providers],

@@ -253,15 +253,15 @@ const Footer = memo(() => {
     () => [
       ...(footer.showSettingsEntry && !isDevMode
         ? [
-            {
-              icon: <Icon icon={Settings2} />,
-              key: 'setting',
-              label: <Link to="/settings">{t('userPanel.setting')}</Link>,
-            },
-            {
-              type: 'divider' as const,
-            },
-          ]
+          {
+            icon: <Icon icon={Settings2} />,
+            key: 'setting',
+            label: <Link to="/settings">{t('userPanel.setting')}</Link>,
+          },
+          {
+            type: 'divider' as const,
+          },
+        ]
         : []),
       {
         icon: <Icon icon={Book} />,
@@ -298,35 +298,35 @@ const Footer = memo(() => {
       },
       ...(footer.layout === 'compact' && !footer.hideGitHub
         ? [
-            {
-              icon: <Icon icon={GithubIcon} />,
-              key: 'github',
-              label: (
-                <a href={GITHUB} rel="noopener noreferrer" target="_blank">
-                  GitHub
-                </a>
-              ),
-            },
-          ]
+          {
+            icon: <Icon icon={GithubIcon} />,
+            key: 'github',
+            label: (
+              <a href={GITHUB} rel="noopener noreferrer" target="_blank">
+                GitHub
+              </a>
+            ),
+          },
+        ]
         : []),
       ...(footer.showEvalEntry && footer.layout === 'compact'
         ? [
-            {
-              icon: <Icon icon={FlaskConical} />,
-              key: 'eval',
-              label: <Link to="/eval">Evaluation Lab</Link>,
-            },
-          ]
+          {
+            icon: <Icon icon={FlaskConical} />,
+            key: 'eval',
+            label: <Link to="/eval">Evaluation Lab</Link>,
+          },
+        ]
         : []),
       ...(shouldShowProductHuntMenuEntry
         ? [
-            {
-              icon: <Icon icon={Rocket} />,
-              key: 'productHunt',
-              label: 'Product Hunt',
-              onClick: handleOpenProductHuntCard,
-            },
-          ]
+          {
+            icon: <Icon icon={Rocket} />,
+            key: 'productHunt',
+            label: 'Product Hunt',
+            onClick: handleOpenProductHuntCard,
+          },
+        ]
         : []),
       ...(isHomeSidebar && billboardMenuItems && billboardMenuItems.length > 0
         ? [{ type: 'divider' as const }, ...billboardMenuItems]
@@ -352,31 +352,11 @@ const Footer = memo(() => {
     <>
       {footer.layout === 'expanded' ? (
         <Flexbox horizontal align={'center'} gap={2} justify={'space-between'} padding={8}>
-          <Flexbox horizontal align={'center'} flex={1} gap={2}>
-            <DropdownMenu items={helpMenuItems} placement="topLeft">
-              <ActionIcon
-                aria-label={t('userPanel.help')}
-                data-billboard-anchor=""
-                icon={CircleHelp}
-                size={16}
-              />
-            </DropdownMenu>
-            {!footer.hideGitHub && (
-              <a aria-label={'GitHub'} href={GITHUB} rel="noopener noreferrer" target={'_blank'}>
-                <ActionIcon icon={GithubIcon} size={16} title={'GitHub'} />
-              </a>
-            )}
-            <Link to="/eval">
-              <ActionIcon icon={FlaskConical} size={16} title="Evaluation Lab" />
-            </Link>
-          </Flexbox>
+          <Flexbox horizontal align={'center'} flex={1} gap={2} />
           <ThemeButton placement={'topCenter'} size={16} />
         </Flexbox>
       ) : (
         <Flexbox horizontal align={'center'} gap={2} padding={8}>
-          <DropdownMenu items={helpMenuItems} placement="topLeft">
-            <ActionIcon aria-label={t('userPanel.help')} icon={CircleHelp} size={16} />
-          </DropdownMenu>
           {isDevMode && (
             <Link to="/settings">
               <ActionIcon
