@@ -1,0 +1,14 @@
+{
+  "actions.followOnX": "Ikuti kami di X",
+  "actions.subscribeToUpdates": "Berlangganan pembaruan",
+  "actions.versions": "Detail versi",
+  "addedWhileAway": "Kami menambahkan fitur baru saat Anda sedang pergi.",
+  "allChangelog": "Lihat semua changelog",
+  "description": "Tetap update dengan fitur dan peningkatan baru dari {{appName}}",
+  "pagination.next": "Halaman berikutnya",
+  "pagination.older": "Lihat perubahan lama",
+  "readDetails": "Baca detail",
+  "title": "Catatan perubahan",
+  "versionDetails": "Detail versi",
+  "welcomeBack": "Selamat datang kembali!"
+}

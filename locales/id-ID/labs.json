@@ -1,0 +1,21 @@
+{
+  "features.agentDocumentFloatingChatPanel.desc": "Tampilkan panel chat mengambang di pratinjau dokumen agent hanya saat fitur lab ini diaktifkan.",
+  "features.agentDocumentFloatingChatPanel.title": "Panel Chat Mengambang Dokumen Agent",
+  "features.agentSelfIteration.desc": "Izinkan asisten untuk merefleksikan diri, membangun kesadaran diri, dan terus beriterasi melalui percobaan dan interaksi yang berlangsung.",
+  "features.agentSelfIteration.title": "Iterasi Mandiri Agent",
+  "features.assistantMessageGroup.desc": "Kelompokkan pesan agent dan hasil pemanggilan alatnya untuk ditampilkan bersama",
+  "features.assistantMessageGroup.title": "Pengelompokan Pesan Agent",
+  "features.executionDeviceSwitcher.desc": "Tampilkan pemilih perangkat eksekusi di bilah alat agent heterogen agar Anda bisa mengarahkan proses ke perangkat ini, sandbox cloud, atau perangkat jarak jauh yang terhubung.",
+  "features.executionDeviceSwitcher.title": "Pemilih Perangkat Eksekusi",
+  "features.gatewayMode.desc": "Jalankan tugas agent di server melalui Gateway WebSocket, bukan secara lokal. Membuat eksekusi lebih cepat dan mengurangi penggunaan sumber daya klien.",
+  "features.gatewayMode.title": "Eksekusi Agent di Server (Gateway)",
+  "features.groupChat.desc": "Aktifkan koordinasi obrolan grup multi-agent.",
+  "features.groupChat.title": "Obrolan Grup (Multi-Agent)",
+  "features.imessage.desc": "Hubungkan agent ke iMessage melalui jembatan BlueBubbles Desktop LobeHub lokal.",
+  "features.imessage.title": "Channel iMessage",
+  "features.inputMarkdown.desc": "Render Markdown di area input secara real time (teks tebal, blok kode, tabel, dll.).",
+  "features.inputMarkdown.title": "Render Markdown Input",
+  "features.platformAgent.desc": "Tampilkan entri \"Tambah Agent Platform\" di menu pembuatan. Agent platform (mis. OpenClaw, Hermes) berjalan di perangkat yang terhubung dan berkomunikasi kembali lewat lh connect.",
+  "features.platformAgent.title": "Pembuatan Agent Platform",
+  "title": "Labs"
+}

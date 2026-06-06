@@ -1,0 +1,20 @@
+{
+  "agent_cron_job_failed": "Tugas terjadwal Anda \"{{jobName}}\" gagal. Buka tugas untuk melihat error lengkap.",
+  "agent_cron_job_failed_insufficient_budget": "Tugas terjadwal Anda \"{{jobName}}\" tidak dapat dijalankan karena kredit akun Anda habis. Isi saldo atau tingkatkan paket agar tugas berikutnya bisa berjalan.",
+  "agent_cron_job_failed_insufficient_budget_title": "Tugas terjadwal dijeda: kredit tidak mencukupi",
+  "agent_cron_job_failed_title": "Tugas terjadwal gagal",
+  "billboard.learnMore": "Pelajari lebih lanjut",
+  "billboard.menuLabel": "Pengumuman",
+  "image_generation_completed": "Gambar Anda \"{{prompt}}\" sudah siap.",
+  "image_generation_completed_title": "Pembuatan gambar selesai",
+  "inbox.archiveAll": "Arsipkan semua",
+  "inbox.empty": "Belum ada notifikasi",
+  "inbox.emptyUnread": "Belum ada notifikasi belum dibaca",
+  "inbox.filterUnread": "Tampilkan yang belum dibaca saja",
+  "inbox.markAllRead": "Tandai semua sudah dibaca",
+  "inbox.title": "Notifikasi",
+  "storage_overage_cap_reached": "Batas bulanan pay-as-you-go penyimpanan Anda sebesar ${{monthlyCap}} telah tercapai. Perkiraan biaya pada siklus ini adalah ${{estimatedCycleCharge}}. Upload baru di luar kuota penyimpanan yang termasuk akan diblokir sampai siklus tagihan berikutnya atau sampai Anda menaikkan batas.",
+  "storage_overage_cap_reached_title": "Batas pay-as-you-go penyimpanan tercapai",
+  "video_generation_completed": "Video Anda \"{{prompt}}\" sudah siap.",
+  "video_generation_completed_title": "Pembuatan video selesai"
+}

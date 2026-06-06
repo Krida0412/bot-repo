@@ -8,6 +8,7 @@ export const locales = [
   'de-DE',
   'en-US',
   'es-ES',
+  'id-ID',
   'fr-FR',
   'ja-JP',
   'ko-KR',
@@ -32,6 +33,7 @@ export const normalizeLocale = (locale?: string): Locales => {
 
   if (locale.startsWith('ar')) return 'ar';
   if (locale.startsWith('fa')) return 'fa-IR';
+  if (locale.startsWith('id')) return 'id-ID';
 
   if (locale.startsWith('cn')) return 'zh-CN';
 
@@ -73,6 +75,10 @@ export const localeOptions: LocaleOptions = [
   {
     label: 'Deutsch',
     value: 'de-DE',
+  },
+  {
+    label: 'Bahasa Indonesia',
+    value: 'id-ID',
   },
   {
     label: 'Español',
@@ -124,4 +130,4 @@ export const localeOptions: LocaleOptions = [
   },
 ] as LocaleOptions;
 
-export const supportLocales: string[] = [...locales, 'en', 'zh'];
+export const supportLocales: string[] = [...locales, 'en', 'zh', 'id'];

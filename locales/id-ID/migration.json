@@ -1,0 +1,23 @@
+{
+  "dbV1.action.clearDB": "Hapus Data Lokal",
+  "dbV1.action.downloadBackup": "Unduh Cadangan Data",
+  "dbV1.action.reUpgrade": "Upgrade Ulang",
+  "dbV1.action.start": "Mulai",
+  "dbV1.action.upgrade": "Upgrade",
+  "dbV1.clear.confirm": "Anda akan menghapus data lokal (pengaturan global tidak akan terpengaruh). Harap pastikan Anda sudah mengunduh cadangan data.",
+  "dbV1.description": "Pada versi baru, penyimpanan data {{appName}} telah mengalami peningkatan besar. Karena itu, kami perlu memindahkan data lama agar Anda mendapatkan pengalaman yang lebih baik.",
+  "dbV1.features.capability.desc": "Berdasarkan teknologi IndexedDB, mampu menyimpan pesan chat seumur hidup.",
+  "dbV1.features.capability.title": "Kapasitas Besar",
+  "dbV1.features.performance.desc": "Secara otomatis mengindeks jutaan pesan, dengan kueri pencarian yang merespons dalam hitungan milidetik.",
+  "dbV1.features.performance.title": "Performa Tinggi",
+  "dbV1.features.use.desc": "Mendukung pencarian berdasarkan judul, deskripsi, tag, isi pesan, bahkan teks terjemahan, sehingga efisiensi pencarian harian meningkat drastis.",
+  "dbV1.features.use.title": "Lebih Mudah Digunakan",
+  "dbV1.title": "Evolusi Data {{appName}}",
+  "dbV1.upgrade.error.subTitle": "Maaf, terjadi kesalahan saat proses upgrade basis data. Silakan coba solusi berikut: A. Hapus data lokal dan impor ulang cadangan data; B. Klik tombol 'Coba Lagi Upgrade'.<br><br> Jika masalah masih berlanjut, silakan <1>kirim laporan masalah</1>, dan kami akan membantu secepat mungkin.",
+  "dbV1.upgrade.error.title": "Upgrade Basis Data Gagal",
+  "dbV1.upgrade.success.subTitle": "Basis data telah di-upgrade ke versi terbaru. Anda bisa lanjut sekarang.",
+  "dbV1.upgrade.success.title": "Upgrade Basis Data Berhasil",
+  "dbV1.upgradeTip": "Proses upgrade akan memakan waktu sekitar 10 hingga 20 detik. Jangan tutup {{appName}} selama proses upgrade berlangsung.",
+  "migrateError.missVersion": "Data impor tidak memiliki nomor versi. Silakan periksa file dan coba lagi.",
+  "migrateError.noMigration": "Tidak ditemukan solusi migrasi untuk versi saat ini. Silakan periksa nomor versi dan coba lagi. Jika masalah tetap berlanjut, silakan kirim permintaan umpan balik."
+}
