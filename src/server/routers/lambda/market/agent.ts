@@ -331,11 +331,11 @@ export const agentRouter = router({
           originalAgent: isOwner
             ? null
             : {
-                author: agentDetail.author,
-                avatar: agentDetail.avatar,
-                identifier: agentDetail.identifier,
-                name: agentDetail.name,
-              },
+              author: agentDetail.author,
+              avatar: agentDetail.avatar,
+              identifier: agentDetail.identifier,
+              name: agentDetail.name,
+            },
         };
       } catch (error) {
         log('Error checking ownership: %O', error);
@@ -492,17 +492,20 @@ export const agentRouter = router({
             response.statusText,
             errorText,
           );
-          throw new Error(`Failed to get onboarding full: ${response.statusText}`);
+          // Self-hosted deployments may not have access to the official
+          // LobeHub marketplace. Instead of throwing (which surfaces a
+          // "failed to load templates" error in onboarding), return an
+          // empty catalog so the picker shows an empty state and the user
+          // can continue the onboarding flow seamlessly.
+          return {};
         }
 
         return (await response.json()) as Record<string, unknown[]>;
       } catch (error) {
         log('Error getting onboarding full: %O', error);
-        throw new TRPCError({
-          cause: error,
-          code: 'INTERNAL_SERVER_ERROR',
-          message: error instanceof Error ? error.message : 'Failed to get onboarding full',
-        });
+        // Network/auth failure against the official marketplace: degrade
+        // gracefully to an empty catalog rather than blocking onboarding.
+        return {};
       }
     }),
 

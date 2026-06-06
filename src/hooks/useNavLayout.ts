@@ -72,6 +72,7 @@ export const useNavLayout = (): NavLayout => {
     () =>
       [
         {
+          hidden: true,
           icon: getRouteById('image')!.icon,
           key: SidebarTabKey.Image,
           title: t('tab.generation'),

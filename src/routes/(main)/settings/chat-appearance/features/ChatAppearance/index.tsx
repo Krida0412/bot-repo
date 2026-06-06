@@ -160,7 +160,7 @@ const ChatAppearance = memo(() => {
             <Select
               value={general.highlighterTheme}
               options={highlighterThemes.map((item) => ({
-                label: item.displayName,
+                label: item.displayName?.replace(/Lobe/g, 'ASAI'),
                 value: item.id,
               }))}
               style={{
@@ -186,7 +186,7 @@ const ChatAppearance = memo(() => {
             <Select
               value={general.mermaidTheme}
               options={mermaidThemes.map((item) => ({
-                label: item.displayName,
+                label: item.displayName?.replace(/Lobe/g, 'ASAI'),
                 value: item.id,
               }))}
               style={{

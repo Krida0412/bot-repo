@@ -583,9 +583,9 @@ export class DiscoverService {
 
         examples: Array.isArray((data as any).examples)
           ? (data as any).examples.map((example: any) => ({
-              content: typeof example === 'string' ? example : example.content || '',
-              role: example.role || 'user',
-            }))
+            content: typeof example === 'string' ? example : example.content || '',
+            role: example.role || 'user',
+          }))
           : [],
         forkCount: (data as any).forkCount,
         forkedFromAgentId: (data as any).forkedFromAgentId,
@@ -1142,7 +1142,7 @@ export class DiscoverService {
     if (builtinTool) {
       log('getPluginDetail: found builtin tool for identifier=%s', identifier);
       const plugin: DiscoverPluginDetail = {
-        author: 'LobeHub',
+        author: 'ASAI',
         avatar: builtinTool.manifest.meta.avatar || '',
         category: undefined,
         createdAt: '',

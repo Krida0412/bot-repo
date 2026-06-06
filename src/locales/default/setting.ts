@@ -1204,21 +1204,21 @@ When I am ___, I need ___
   'tools.builtins.lobe-user-memory.title': 'Memory',
   // ===== Additional Builtin Tools =====
   'tools.builtins.lobe-activator.description': 'Discover and activate tools and skills',
-  'tools.builtins.lobe-activator.title': 'Tools & Skills Activator',
+  'tools.builtins.lobe-activator.title': 'ASAI Activator',
   'tools.builtins.lobe-agent-builder.description':
     'Configure agent metadata, model settings, plugins, and the system prompt',
-  'tools.builtins.lobe-agent-builder.title': 'Agent Builder',
+  'tools.builtins.lobe-agent-builder.title': 'ASAI Agent Builder',
   'tools.builtins.lobe-agent-documents.description':
     'Manage agent-scoped documents (list, create, read, edit, remove, rename) and load rules',
   'tools.builtins.lobe-agent-documents.title': 'Documents',
   'tools.builtins.lobe-agent-management.description': 'Create, manage, and orchestrate AI agents',
-  'tools.builtins.lobe-agent-management.title': 'Agent Management',
+  'tools.builtins.lobe-agent-management.title': 'ASAI Agent Manager',
   'tools.builtins.lobe-brief.description':
     'Report progress, deliver results, and request user decisions',
   'tools.builtins.lobe-brief.title': 'Brief Tools',
   'tools.builtins.lobe-creds.description':
     'Manage user credentials for authentication, environment variable injection, and API verification — handle API keys, OAuth tokens, and secrets for third-party integrations.',
-  'tools.builtins.lobe-creds.title': 'Credentials',
+  'tools.builtins.lobe-creds.title': 'ASAI Credentials',
   'tools.builtins.lobe-cron.description':
     'Manage scheduled tasks that run automatically at specified times. Create, update, enable/disable, and monitor recurring tasks for your agents.',
   'tools.builtins.lobe-cron.title': 'Scheduled Tasks',

@@ -64,7 +64,6 @@ const CreateAgentButton = memo<CreateAgentButtonProps>(({ groupId, className }) 
     const platformItem = createPlatformAgentMenuItem(menuOptions);
     return [
       createAgentMenuItem(menuOptions),
-      createGroupChatMenuItem(menuOptions),
       ...(heteroItems.length > 0 ? [{ type: 'divider' as const }, ...heteroItems] : []),
       ...(platformItem ? [{ type: 'divider' as const }, platformItem] : []),
     ];

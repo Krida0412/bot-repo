@@ -5,7 +5,7 @@
 export const LOBE_CHAT_CLOUD = 'ASAI Cloud';
 
 export const BRANDING_NAME = 'ASAI';
-export const BRANDING_LOGO_URL = '';
+export const BRANDING_LOGO_URL = '/logo.png';
 
 export const ORG_NAME = 'ASAI';
 

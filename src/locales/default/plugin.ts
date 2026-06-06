@@ -50,7 +50,7 @@ export default {
   'builtins.lobe-agent-management.render.installPlugin.failed': 'Installation failed',
   'builtins.lobe-agent-management.render.installPlugin.plugin': 'Plugin',
   'builtins.lobe-agent-management.render.installPlugin.success': 'Installed successfully',
-  'builtins.lobe-agent-management.title': 'Agent Manager',
+  'builtins.lobe-agent-management.title': 'ASAI Agent Manager',
   'builtins.lobe-agent.apiName.analyzeVisualMedia': 'Analyze visual media',
   'builtins.lobe-agent.apiName.analyzeVisualMedia.mediaCount': '{{count}} media',
   'builtins.lobe-agent.apiName.analyzeVisualMedia.result':
@@ -260,6 +260,9 @@ export default {
   'builtins.lobe-page-agent.title': 'Page',
   'builtins.lobe-activator.apiName.activateTools': 'Activate Tools',
   'builtins.lobe-activator.inspector.activateTools.notFoundCount': '{{count}} not found',
+  'builtins.lobe-activator.title': 'ASAI Activator',
+  'builtins.lobe-creds.title': 'ASAI Credentials',
+  'builtins.lobe-agent-builder.title': 'ASAI Agent Builder',
   'builtins.lobe-skill-store.apiName.importFromMarket': 'Import from Market',
   'builtins.lobe-skill-store.apiName.importSkill': 'Import Skill',
   'builtins.lobe-skill-store.apiName.searchSkill': 'Search Skills',

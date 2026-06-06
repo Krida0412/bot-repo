@@ -20,15 +20,7 @@ export const BOT_INTEGRATION_BANNER_ID = 'bot-integration-v2';
 const ICON_SIZE = 16;
 const AVATAR_SIZE = 24;
 
-const BANNER_PLATFORM_NAMES = [
-  'Discord',
-  'Slack',
-  'Telegram',
-  'Line',
-  'Lark',
-  'WeChat',
-  'QQ',
-] as const;
+const BANNER_PLATFORM_NAMES = ['Discord', 'Slack', 'Telegram'] as const;
 
 const styles = createStaticStyles(({ css, cssVar }) => ({
   avatar: css`
