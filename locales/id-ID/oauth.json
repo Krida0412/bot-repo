@@ -1,4 +1,4 @@
-{
+﻿{
   "consent.buttons.accept": "Otorisasi",
   "consent.buttons.deny": "Tolak",
   "consent.description": "Aplikasi {{clientName}} meminta otorisasi untuk akun Anda",
@@ -13,7 +13,7 @@
   "consent.redirecting": "Otorisasi berhasil, mengalihkan...",
   "consent.scope.email": "Akses alamat email Anda",
   "consent.scope.offline_access": "Izinkan klien mengakses data Anda",
-  "consent.scope.openid": "Autentikasi menggunakan akun LobeHub Anda",
+  "consent.scope.openid": "Autentikasi menggunakan akun ASAI Anda",
   "consent.scope.profile": "Akses informasi profil dasar Anda (nama, avatar, dll.)",
   "consent.scope.sync-read": "Baca data sinkronisasi Anda",
   "consent.scope.sync-write": "Tulis dan perbarui data sinkronisasi Anda",

@@ -1,4 +1,4 @@
-{
+﻿{
   "ai21.description": "AI21 Labs membangun model fondasi dan sistem AI untuk perusahaan, mempercepat AI generatif di produksi.",
   "ai302.description": "302.AI adalah platform AI bayar sesuai pemakaian yang menyediakan katalog luas API AI dan aplikasi AI online.",
   "ai360.description": "360 AI adalah platform model dan layanan dari 360, menyediakan model NLP seperti 360GPT2 Pro, 360GPT Pro, dan 360GPT Turbo. Model ini menggabungkan parameter skala besar dan kemampuan multimodal untuk generasi teks, pemahaman semantik, chat, dan kode, dengan harga fleksibel untuk berbagai kebutuhan.",
@@ -33,7 +33,7 @@
   "jina.description": "Didirikan pada 2020, Jina AI adalah perusahaan search AI terkemuka. Stack pencariannya mencakup model vektor, reranker, dan model bahasa kecil untuk membangun aplikasi pencarian generatif dan multimodal yang andal dan berkualitas tinggi.",
   "kimicodingplan.description": "Kimi Code dari Moonshot AI menyediakan akses ke model Kimi termasuk K2.5 untuk tugas coding.",
   "lmstudio.description": "LM Studio adalah aplikasi desktop untuk mengembangkan dan bereksperimen dengan LLM di komputer Anda.",
-  "lobehub.description": "LobeHub Cloud menggunakan API resmi untuk mengakses model AI dan mengukur pemakaian dengan Credit yang terikat pada token model.",
+  "ASAI.description": "ASAI Cloud menggunakan API resmi untuk mengakses model AI dan mengukur pemakaian dengan Credit yang terikat pada token model.",
   "longcat.description": "LongCat adalah seri model AI generatif besar yang dikembangkan sendiri oleh Meituan. Model ini dirancang untuk meningkatkan produktivitas internal perusahaan dan mendukung aplikasi inovatif melalui arsitektur komputasi yang efisien serta kemampuan multimodal yang kuat.",
   "minimax.description": "Didirikan pada 2021, MiniMax membangun AI serbaguna dengan model fondasi multimodal, termasuk model teks MoE berparameter triliunan, model suara, dan model visi, bersama aplikasi seperti Hailuo AI.",
   "minimaxcodingplan.description": "MiniMax Token Plan menyediakan akses ke model MiniMax termasuk M2.7 untuk tugas coding via langganan biaya tetap.",

@@ -1,4 +1,4 @@
-{
+﻿{
   "agentSelection.empty": "Няма налични агенти",
   "agentSelection.noAvailable": "В момента не могат да бъдат добавени агенти",
   "agentSelection.noSelected": "Няма избрани агенти",
@@ -41,7 +41,7 @@
   "project.create": "Нов проект",
   "project.deleteConfirm": "Този проект ще бъде изтрит и не може да бъде възстановен. Потвърдете, за да продължите.",
   "recommendations.heteroAgent.cta": "Добавяне на агент",
-  "recommendations.heteroAgent.description": "Открит е CLI на {{name}} на това устройство — добавете агент {{name}}, за да чатите с него от LobeHub.",
+  "recommendations.heteroAgent.description": "Открит е CLI на {{name}} на това устройство — добавете агент {{name}}, за да чатите с него от ASAI.",
   "recommendations.heteroAgent.tag": "Агент за кодиране",
   "recommendations.heteroAgent.title": "Добавяне на агент {{name}}",
   "recommendations.subtitle": "Някои препоръки за вашата настройка",

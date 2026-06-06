@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "Het nieuwste open-source model van 01.AI met 34 miljard parameters, geoptimaliseerd voor diverse dialoogscenario’s. Het is getraind op hoogwaardige data en afgestemd op menselijke voorkeuren.",
   "01-ai/yi-1.5-9b-chat.description": "Het nieuwste open-source model van 01.AI met 9 miljard parameters, geoptimaliseerd voor diverse dialoogscenario’s. Het is getraind op hoogwaardige data en afgestemd op menselijke voorkeuren.",
   "360/deepseek-r1.description": "DeepSeek-R1, ingezet door 360, gebruikt grootschalige reinforcement learning in de post-trainingfase om redeneervermogen sterk te verbeteren met minimale labeling. Het presteert vergelijkbaar met OpenAI o1 op wiskunde-, codeer- en taalredeneertaken.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5 is een klassiek 512x512 tekst-naar-beeldmodel, ideaal voor snelle prototyping en creatieve experimenten.",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5 met ingebouwde CLIP/T5-encoders vereist geen externe encoderbestanden en is geschikt voor modellen zoals sd3.5_medium_incl_clips met lager middelenverbruik.",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5 is een tekst-naar-beeldmodel van de volgende generatie met Large- en Medium-varianten. Het vereist externe CLIP-encoderbestanden en levert uitstekende beeldkwaliteit en promptnauwkeurigheid.",
-  "comfyui/stable-diffusion-custom-refiner.description": "Aangepast SDXL beeld-naar-beeldmodel. Gebruik custom_sd_lobe.safetensors als bestandsnaam voor het model; als je een VAE hebt, gebruik dan custom_sd_vae_lobe.safetensors. Plaats modelbestanden in de vereiste Comfy-mappen.",
-  "comfyui/stable-diffusion-custom.description": "Aangepast SD tekst-naar-beeldmodel. Gebruik custom_sd_lobe.safetensors als bestandsnaam voor het model; als je een VAE hebt, gebruik dan custom_sd_vae_lobe.safetensors. Plaats modelbestanden in de vereiste Comfy-mappen.",
+  "comfyui/stable-diffusion-custom-refiner.description": "Aangepast SDXL beeld-naar-beeldmodel. Gebruik custom_sd_ASAI.safetensors als bestandsnaam voor het model; als je een VAE hebt, gebruik dan custom_sd_vae_ASAI.safetensors. Plaats modelbestanden in de vereiste Comfy-mappen.",
+  "comfyui/stable-diffusion-custom.description": "Aangepast SD tekst-naar-beeldmodel. Gebruik custom_sd_ASAI.safetensors als bestandsnaam voor het model; als je een VAE hebt, gebruik dan custom_sd_vae_ASAI.safetensors. Plaats modelbestanden in de vereiste Comfy-mappen.",
   "comfyui/stable-diffusion-refiner.description": "SDXL beeld-naar-beeldmodel voert hoogwaardige transformaties uit op invoerbeelden, met ondersteuning voor stijltransfers, restauratie en creatieve variaties.",
   "comfyui/stable-diffusion-xl.description": "SDXL is een tekst-naar-beeldmodel dat 1024x1024 hoge resolutie ondersteunt met verbeterde beeldkwaliteit en detail.",
   "command-a-03-2025.description": "Command A is ons meest geavanceerde model tot nu toe, uitblinkend in het gebruik van tools, agents, RAG en meertalige scenario's. Het beschikt over een contextvenster van 256K, draait op slechts twee GPU's en levert 150% hogere verwerkingssnelheid dan Command R+ 08-2024.",

@@ -1,4 +1,4 @@
-{
+﻿{
   "error.backHome": "Kembali ke Beranda",
   "error.desc": "Coba lagi nanti, atau kembali ke tempat yang aman.",
   "error.retry": "Muat Ulang",
@@ -74,7 +74,7 @@
   "response.GoogleAIBlockReason.default": "Konten diblokir ({{blockReason}}). Silakan sesuaikan lalu coba lagi.",
   "response.InsufficientBudgetForModel": "Sisa kredit Anda tidak cukup untuk model ini. Silakan top-up kredit, upgrade paket, atau coba model yang lebih murah.",
   "response.InvalidAccessCode": "Kode akses tidak valid atau kosong. Silakan masukkan kode akses yang benar atau tambahkan API Key kustom.",
-  "response.LobeHubModelDeprecated": "Model \"{{model}}\" sudah tidak tersedia. Silakan pilih model terbaru dari pemilih model.",
+  "response.ASAIModelDeprecated": "Model \"{{model}}\" sudah tidak tersedia. Silakan pilih model terbaru dari pemilih model.",
   "response.NoOpenAIAPIKey": "OpenAI API Key kosong, silakan tambahkan OpenAI API Key kustom",
   "response.PluginApiNotFound": "Maaf, API ini tidak ada di manifest skill. Silakan periksa apakah metode permintaan Anda sesuai dengan API pada manifest skill",
   "response.PluginApiParamsError": "Maaf, validasi parameter input untuk permintaan skill gagal. Silakan periksa apakah parameter input sesuai dengan deskripsi API",

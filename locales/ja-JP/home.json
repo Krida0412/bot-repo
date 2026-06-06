@@ -1,4 +1,4 @@
-{
+﻿{
   "agentSelection.empty": "利用可能なアシスタントがありません",
   "agentSelection.noAvailable": "現在追加できるアシスタントはありません",
   "agentSelection.noSelected": "アシスタントがまだ選択されていません",
@@ -41,7 +41,7 @@
   "project.create": "新しいプロジェクトを作成",
   "project.deleteConfirm": "このプロジェクトは削除され、復元できません。続行するには確認してください。",
   "recommendations.heteroAgent.cta": "エージェントを追加",
-  "recommendations.heteroAgent.description": "このデバイスで{{name}} CLIが検出されました — {{name}}エージェントを追加してLobeHubからチャットしましょう。",
+  "recommendations.heteroAgent.description": "このデバイスで{{name}} CLIが検出されました — {{name}}エージェントを追加してASAIからチャットしましょう。",
   "recommendations.heteroAgent.tag": "コーディングエージェント",
   "recommendations.heteroAgent.title": "{{name}}エージェントを追加",
   "recommendations.subtitle": "セットアップのためのいくつかのおすすめ",

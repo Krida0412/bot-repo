@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "أحدث نموذج مفتوح المصدر من 01.AI، مدرب بدقة ويحتوي على 34 مليار معلمة، يدعم سيناريوهات حوار متعددة، ومدرب على بيانات عالية الجودة ومتوافق مع تفضيلات البشر.",
   "01-ai/yi-1.5-9b-chat.description": "أحدث نموذج مفتوح المصدر من 01.AI، مدرب بدقة ويحتوي على 9 مليارات معلمة، يدعم سيناريوهات حوار متعددة، ومدرب على بيانات عالية الجودة ومتوافق مع تفضيلات البشر.",
   "360/deepseek-r1.description": "نموذج DeepSeek-R1 من 360 يستخدم التعلم المعزز واسع النطاق في مرحلة ما بعد التدريب لتعزيز قدرات الاستدلال بشكل كبير باستخدام الحد الأدنى من البيانات الموسومة. يضاهي نموذج OpenAI o1 في مهام الرياضيات والبرمجة والاستدلال اللغوي.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5 هو نموذج تحويل نص إلى صورة كلاسيكي بدقة 512x512، مثالي للنماذج الأولية السريعة والتجارب الإبداعية.",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5 مع مشفرات CLIP/T5 مدمجة لا يحتاج إلى ملفات مشفر خارجية، مناسب لنماذج مثل sd3.5_medium_incl_clips مع استخدام موارد أقل.",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5 هو نموذج تحويل نص إلى صورة من الجيل التالي مع نسخ كبيرة ومتوسطة. يتطلب ملفات مشفر CLIP خارجية ويوفر جودة صور ممتازة والتزامًا قويًا بالمطالبات.",
-  "comfyui/stable-diffusion-custom-refiner.description": "نموذج تحويل صورة إلى صورة مخصص لـ SDXL. استخدم custom_sd_lobe.safetensors كاسم ملف النموذج؛ إذا كان لديك VAE، استخدم custom_sd_vae_lobe.safetensors. ضع ملفات النموذج في المجلدات المطلوبة لـ Comfy.",
-  "comfyui/stable-diffusion-custom.description": "نموذج تحويل نص إلى صورة مخصص لـ SD. استخدم custom_sd_lobe.safetensors كاسم ملف النموذج؛ إذا كان لديك VAE، استخدم custom_sd_vae_lobe.safetensors. ضع ملفات النموذج في المجلدات المطلوبة لـ Comfy.",
+  "comfyui/stable-diffusion-custom-refiner.description": "نموذج تحويل صورة إلى صورة مخصص لـ SDXL. استخدم custom_sd_ASAI.safetensors كاسم ملف النموذج؛ إذا كان لديك VAE، استخدم custom_sd_vae_ASAI.safetensors. ضع ملفات النموذج في المجلدات المطلوبة لـ Comfy.",
+  "comfyui/stable-diffusion-custom.description": "نموذج تحويل نص إلى صورة مخصص لـ SD. استخدم custom_sd_ASAI.safetensors كاسم ملف النموذج؛ إذا كان لديك VAE، استخدم custom_sd_vae_ASAI.safetensors. ضع ملفات النموذج في المجلدات المطلوبة لـ Comfy.",
   "comfyui/stable-diffusion-refiner.description": "نموذج تحويل صورة إلى صورة لـ SDXL ينفذ تحويلات عالية الجودة من الصور المدخلة، ويدعم نقل الأسلوب، الاستعادة، والتنوع الإبداعي.",
   "comfyui/stable-diffusion-xl.description": "SDXL هو نموذج تحويل نص إلى صورة يدعم التوليد عالي الدقة 1024x1024 مع جودة صور وتفاصيل محسّنة.",
   "command-a-03-2025.description": "Command A هو أقوى نموذج لدينا حتى الآن، يتفوق في استخدام الأدوات، الوكلاء، استرجاع المعرفة، والسيناريوهات متعددة اللغات. يتمتع بسياق بطول 256 ألف رمز، ويعمل على وحدتي GPU فقط، ويوفر إنتاجية أعلى بنسبة 150٪ مقارنة بـ Command R+ 08-2024.",

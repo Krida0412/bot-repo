@@ -1,4 +1,4 @@
-{
+﻿{
   "authorize.cancel": "Belum sekarang",
   "authorize.confirm": "Buat Profil Anda",
   "authorize.description": "Profil komunitas Anda terpisah dari akun pengguna {{appName}} Anda.",
@@ -14,7 +14,7 @@
   "callback.messages.successWithCountdown": "{{message}} Jendela akan tertutup otomatis dalam {{countdown}} detik",
   "callback.messages.successWithRedirect": "Otorisasi berhasil! Mengalihkan...",
   "callback.titles.error": "Otorisasi Gagal",
-  "callback.titles.loading": "Otorisasi Market LobeHub",
+  "callback.titles.loading": "Otorisasi Market ASAI",
   "callback.titles.success": "Otorisasi Berhasil",
   "claimResources.claim": "Klaim yang Dipilih",
   "claimResources.description": "Kami menemukan resource yang terhubung ke akun Anda dan bisa Anda klaim:",
@@ -40,7 +40,7 @@
   "errors.stateMismatch": "State otorisasi tidak cocok. Silakan coba lagi.",
   "errors.stateMissing": "State otorisasi tidak ditemukan. Silakan coba lagi.",
   "messages.authorizationFailed": "Otorisasi mengalami masalah. Coba lagi, atau cek apakah Anda sudah selesai masuk di browser.",
-  "messages.authorized": "Layanan LobeHub berhasil diotorisasi",
+  "messages.authorized": "Layanan ASAI berhasil diotorisasi",
   "messages.handoffTimeout": "Otorisasi habis waktu. Selesaikan di browser Anda, lalu coba lagi.",
   "messages.loading": "Memulai proses otorisasi...",
   "messages.success.cloudMcpInstall": "Otorisasi berhasil! Anda sekarang bisa memasang skill Cloud MCP.",

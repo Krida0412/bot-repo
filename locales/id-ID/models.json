@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "Model chat fine-tuned sumber terbuka terbaru dari 01.AI dengan 34B parameter. Model ini mendukung berbagai skenario dialog, dilatih menggunakan data berkualitas tinggi, dan diselaraskan dengan preferensi manusia.",
   "01-ai/yi-1.5-9b-chat.description": "Model chat fine-tuned sumber terbuka terbaru dari 01.AI dengan 9B parameter. Model ini mendukung berbagai skenario dialog, dilatih menggunakan data berkualitas tinggi, dan diselaraskan dengan preferensi manusia.",
   "360/deepseek-r1.description": "DeepSeek-R1 yang di-deploy oleh 360 menggunakan reinforcement learning skala besar pada tahap pascapelatihan untuk meningkatkan kemampuan penalaran secara signifikan dengan label data minimal. Model ini menyamai OpenAI o1 pada tugas matematika, coding, dan penalaran bahasa alami.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "stabil Diffusion 1.5 adalah classic 512x512 teks-untuk-gambar model, ideal untuk rapid prototyping dan kreatif experiments.",
   "comfyui/stable-diffusion-35-inclclip.description": "stabil Diffusion 3.5 dengan built-dalam CLIP/T5 encoders kebutuhan no external encoder files, cocok untuk model seperti sd3.5_medium_incl_clips dengan lebih rendah resource penggunaan.",
   "comfyui/stable-diffusion-35.description": "stabil Diffusion 3.5 adalah generasi berikutnya teks-untuk-gambar model dengan besar dan Medium varian. Model ini memerlukan external CLIP encoder files dan menghadirkan unggul kualitas gambar dan kepatuhan terhadap prompt.",
-  "comfyui/stable-diffusion-custom-refiner.description": "Custom SDXL gambar-untuk-gambar model. Use custom_sd_lobe.safetensors sebagai model ini filename; if you have VAE, use custom_sd_vae_lobe.safetensors. Place model files dalam required Comfy folders.",
-  "comfyui/stable-diffusion-custom.description": "Custom SD teks-untuk-gambar model. Use custom_sd_lobe.safetensors sebagai model ini filename; if you have VAE, use custom_sd_vae_lobe.safetensors. Place model files dalam required Comfy folders.",
+  "comfyui/stable-diffusion-custom-refiner.description": "Custom SDXL gambar-untuk-gambar model. Use custom_sd_ASAI.safetensors sebagai model ini filename; if you have VAE, use custom_sd_vae_ASAI.safetensors. Place model files dalam required Comfy folders.",
+  "comfyui/stable-diffusion-custom.description": "Custom SD teks-untuk-gambar model. Use custom_sd_ASAI.safetensors sebagai model ini filename; if you have VAE, use custom_sd_vae_ASAI.safetensors. Place model files dalam required Comfy folders.",
   "comfyui/stable-diffusion-refiner.description": "SDXL gambar-untuk-gambar model berperforma berkualitas tinggi transformations dari input gambar, mendukung gaya transfer, restoration, dan kreatif variations.",
   "comfyui/stable-diffusion-xl.description": "SDXL adalah teks-untuk-gambar model mendukung 1024x1024 high-resolution pembuatan dengan lebih baik kualitas gambar dan detail.",
   "command-a-03-2025.description": "Command adalah kami paling capable model untuk date, excelling pada penggunaan tool, agen, RAG, dan multibahasa skenario. model ini memiliki 256K jendela konteks, berjalan pada just two GPUs, dan menghadirkan 150% lebih tinggi throughput daripada Command R+ 08-2024.",

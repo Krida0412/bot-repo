@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   'arguments.moreParams': '{{count}} params in total',
   'arguments.title': 'Arguments',
   'builtins.lobe-agent-builder.apiName.getAvailableModels': 'Get available models',
@@ -60,7 +60,7 @@ export default {
   'builtins.lobe-agent.apiName.callSubAgents.more': '{{count}} in total',
   'builtins.lobe-agent.subAgent.stats.tokens': '{{count}} tokens',
   'builtins.lobe-agent.subAgent.stats.tools': '{{count}} tools',
-  'builtins.lobe-agent.title': 'Lobe Agent',
+  'builtins.lobe-agent.title': 'ASAI Agent',
   'builtins.lobe-claude-code.agent.instruction': 'Instruction',
   'builtins.lobe-claude-code.agent.result': 'Result',
   'builtins.lobe-claude-code.askUserQuestion.noAnswer':
@@ -732,7 +732,7 @@ export default {
   'skillDetail.trustWarning':
     "Only use connectors from developers you trust. ASAI does not control which tools developers make available and cannot verify that they will work as intended or that they won't change.",
   'skillInstallBanner.dismiss': 'Dismiss',
-  'skillInstallBanner.title': 'Connect your favorite apps to Lobe AI',
+  'skillInstallBanner.title': 'Connect your favorite apps to ASAI',
   'store.actions.cancel': 'Cancel',
   'store.actions.configure': 'Configure',
   'store.actions.confirmUninstall': 'Uninstalling will clear Skill config. Continue?',

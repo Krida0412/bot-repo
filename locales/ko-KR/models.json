@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "01.AI의 최신 오픈소스 파인튜닝 모델로, 340억 개의 파라미터를 갖추고 있으며, 다양한 대화 시나리오를 지원합니다. 고품질 데이터로 학습되었으며, 인간의 선호도에 맞춰 정렬되었습니다.",
   "01-ai/yi-1.5-9b-chat.description": "01.AI의 최신 오픈소스 파인튜닝 모델로, 90억 개의 파라미터를 갖추고 있으며, 다양한 대화 시나리오를 지원합니다. 고품질 데이터로 학습되었으며, 인간의 선호도에 맞춰 정렬되었습니다.",
   "360/deepseek-r1.description": "360이 배포한 DeepSeek-R1은 후학습 단계에서 대규모 강화학습(RL)을 적용하여 최소한의 라벨로도 추론 능력을 크게 향상시킵니다. 수학, 코드, 자연어 추론 과제에서 OpenAI o1과 동등한 성능을 보입니다.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5는 512x512 해상도의 클래식 텍스트-이미지 생성 모델로, 빠른 프로토타이핑 및 창의적 실험에 적합합니다.",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5는 내장된 CLIP/T5 인코더를 포함하여 외부 인코더 파일이 필요 없는 모델로, sd3.5_medium_incl_clips와 같은 저자원 모델에 적합합니다.",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5는 차세대 텍스트-이미지 생성 모델로, Large 및 Medium 버전이 있으며 외부 CLIP 인코더 파일이 필요합니다. 뛰어난 이미지 품질과 프롬프트 반응성을 제공합니다.",
-  "comfyui/stable-diffusion-custom-refiner.description": "사용자 정의 SDXL 이미지-이미지 모델입니다. 모델 파일명은 custom_sd_lobe.safetensors를 사용하고, VAE가 있다면 custom_sd_vae_lobe.safetensors를 사용하세요. 모델 파일은 Comfy의 지정된 폴더에 배치해야 합니다.",
-  "comfyui/stable-diffusion-custom.description": "사용자 정의 SD 텍스트-이미지 생성 모델입니다. 모델 파일명은 custom_sd_lobe.safetensors를 사용하고, VAE가 있다면 custom_sd_vae_lobe.safetensors를 사용하세요. 모델 파일은 Comfy의 지정된 폴더에 배치해야 합니다.",
+  "comfyui/stable-diffusion-custom-refiner.description": "사용자 정의 SDXL 이미지-이미지 모델입니다. 모델 파일명은 custom_sd_ASAI.safetensors를 사용하고, VAE가 있다면 custom_sd_vae_ASAI.safetensors를 사용하세요. 모델 파일은 Comfy의 지정된 폴더에 배치해야 합니다.",
+  "comfyui/stable-diffusion-custom.description": "사용자 정의 SD 텍스트-이미지 생성 모델입니다. 모델 파일명은 custom_sd_ASAI.safetensors를 사용하고, VAE가 있다면 custom_sd_vae_ASAI.safetensors를 사용하세요. 모델 파일은 Comfy의 지정된 폴더에 배치해야 합니다.",
   "comfyui/stable-diffusion-refiner.description": "SDXL 이미지-이미지 모델로, 입력 이미지를 고품질로 변환하며 스타일 전환, 복원, 창의적 변형을 지원합니다.",
   "comfyui/stable-diffusion-xl.description": "SDXL은 1024x1024 고해상도 생성을 지원하는 텍스트-이미지 모델로, 향상된 이미지 품질과 세부 묘사를 제공합니다.",
   "command-a-03-2025.description": "Command A는 지금까지 가장 강력한 모델로, 도구 사용, 에이전트, RAG, 다국어 시나리오에서 뛰어난 성능을 발휘합니다. 256K 컨텍스트 윈도우를 지원하며, 단 2개의 GPU로 실행 가능하고 Command R+ 08-2024 대비 150% 높은 처리량을 제공합니다.",

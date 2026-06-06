@@ -1,4 +1,4 @@
-{
+﻿{
   "activity.actions.delete": "Hapus",
   "activity.actions.edit": "Edit",
   "activity.defaultType": "Aktivitas",
@@ -10,7 +10,7 @@
   "activity.notes": "Catatan",
   "analysis.action.button": "Minta analisis memori",
   "analysis.modal.cancel": "Batal",
-  "analysis.modal.helper": "Secara default Lobe AI akan menganalisis semua chat yang belum diproses. Anda bisa opsional memilih rentang tanggal untuk dianalisis.",
+  "analysis.modal.helper": "Secara default ASAI akan menganalisis semua chat yang belum diproses. Anda bisa opsional memilih rentang tanggal untuk dianalisis.",
   "analysis.modal.rangePlaceholder": "Belum ada rentang dipilih; semua percakapan akan dianalisis.",
   "analysis.modal.rangeSelected": "Menganalisis chat dari {{start}} sampai {{end}}",
   "analysis.modal.submit": "Minta analisis memori",

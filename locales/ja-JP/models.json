@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "01.AIの最新のオープンソース微調整モデル。34Bパラメータを持ち、複数の対話シナリオに対応。高品質なデータで学習され、人間の好みに合わせて調整されています。",
   "01-ai/yi-1.5-9b-chat.description": "01.AIの最新のオープンソース微調整モデル。9Bパラメータを持ち、複数の対話シナリオに対応。高品質なデータで学習され、人間の好みに合わせて調整されています。",
   "360/deepseek-r1.description": "360が展開するDeepSeek-R1は、ポストトレーニングで大規模な強化学習を活用し、最小限のラベルで推論能力を大幅に向上させます。数学、コード、自然言語推論タスクにおいてOpenAI o1と同等の性能を発揮します。",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5は、512x512のテキストから画像への生成に対応したクラシックモデルであり、迅速なプロトタイピングや創造的な実験に適しています。",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5はCLIP/T5エンコーダーを内蔵しており、外部エンコーダーファイルが不要です。リソース使用量の少ないsd3.5_medium_incl_clipsのようなモデルに適しています。",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5は次世代のテキストから画像への生成モデルであり、LargeおよびMediumのバリアントがあります。外部CLIPエンコーダーファイルが必要ですが、優れた画像品質とプロンプトの忠実性を実現します。",
-  "comfyui/stable-diffusion-custom-refiner.description": "カスタムSDXL画像変換モデルです。モデルファイル名にはcustom_sd_lobe.safetensorsを使用してください。VAEがある場合はcustom_sd_vae_lobe.safetensorsを使用し、必要なComfyフォルダに配置してください。",
-  "comfyui/stable-diffusion-custom.description": "カスタムSDテキストから画像への生成モデルです。モデルファイル名にはcustom_sd_lobe.safetensorsを使用してください。VAEがある場合はcustom_sd_vae_lobe.safetensorsを使用し、必要なComfyフォルダに配置してください。",
+  "comfyui/stable-diffusion-custom-refiner.description": "カスタムSDXL画像変換モデルです。モデルファイル名にはcustom_sd_ASAI.safetensorsを使用してください。VAEがある場合はcustom_sd_vae_ASAI.safetensorsを使用し、必要なComfyフォルダに配置してください。",
+  "comfyui/stable-diffusion-custom.description": "カスタムSDテキストから画像への生成モデルです。モデルファイル名にはcustom_sd_ASAI.safetensorsを使用してください。VAEがある場合はcustom_sd_vae_ASAI.safetensorsを使用し、必要なComfyフォルダに配置してください。",
   "comfyui/stable-diffusion-refiner.description": "SDXL画像変換モデルは、入力画像から高品質な変換を行い、スタイル転送、修復、創造的なバリエーションをサポートします。",
   "comfyui/stable-diffusion-xl.description": "SDXLは1024x1024の高解像度生成に対応したテキストから画像への生成モデルであり、画像品質とディテールが向上しています。",
   "command-a-03-2025.description": "Command Aはこれまでで最も高性能なモデルであり、ツール使用、エージェント、RAG、多言語シナリオに優れています。256Kのコンテキストウィンドウを持ち、わずか2つのGPUで動作し、Command R+（2024年8月版）と比べて150%のスループット向上を実現します。",

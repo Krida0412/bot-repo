@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "Najnowszy otwartoźródłowy model 01.AI z 34 miliardami parametrów, dostrojony do różnych scenariuszy dialogowych, trenowany na wysokiej jakości danych i dostosowany do preferencji użytkowników.",
   "01-ai/yi-1.5-9b-chat.description": "Najnowszy otwartoźródłowy model 01.AI z 9 miliardami parametrów, dostrojony do różnych scenariuszy dialogowych, trenowany na wysokiej jakości danych i dostosowany do preferencji użytkowników.",
   "360/deepseek-r1.description": "DeepSeek-R1 wdrożony przez 360 wykorzystuje skalowane uczenie przez wzmocnienie (RL) w fazie post-treningowej, znacząco poprawiając zdolności rozumowania przy minimalnym oznakowaniu danych. Dorównuje modelowi OpenAI o1 w zadaniach z matematyki, programowania i rozumowania językowego.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5 to klasyczny model tekst-na-obraz 512x512, idealny do szybkiego prototypowania i eksperymentów twórczych.",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5 z wbudowanymi enkoderami CLIP/T5 nie wymaga zewnętrznych plików enkodera, odpowiedni dla modeli takich jak sd3.5_medium_incl_clips o niższym zużyciu zasobów.",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5 to nowej generacji model tekst-na-obraz w wariantach Large i Medium. Wymaga zewnętrznych plików enkodera CLIP i zapewnia doskonałą jakość obrazu oraz zgodność z podpowiedziami.",
-  "comfyui/stable-diffusion-custom-refiner.description": "Niestandardowy model SDXL obraz-na-obraz. Użyj custom_sd_lobe.safetensors jako nazwy pliku modelu; jeśli posiadasz VAE, użyj custom_sd_vae_lobe.safetensors. Umieść pliki modelu w wymaganych folderach Comfy.",
-  "comfyui/stable-diffusion-custom.description": "Niestandardowy model SD tekst-na-obraz. Użyj custom_sd_lobe.safetensors jako nazwy pliku modelu; jeśli posiadasz VAE, użyj custom_sd_vae_lobe.safetensors. Umieść pliki modelu w wymaganych folderach Comfy.",
+  "comfyui/stable-diffusion-custom-refiner.description": "Niestandardowy model SDXL obraz-na-obraz. Użyj custom_sd_ASAI.safetensors jako nazwy pliku modelu; jeśli posiadasz VAE, użyj custom_sd_vae_ASAI.safetensors. Umieść pliki modelu w wymaganych folderach Comfy.",
+  "comfyui/stable-diffusion-custom.description": "Niestandardowy model SD tekst-na-obraz. Użyj custom_sd_ASAI.safetensors jako nazwy pliku modelu; jeśli posiadasz VAE, użyj custom_sd_vae_ASAI.safetensors. Umieść pliki modelu w wymaganych folderach Comfy.",
   "comfyui/stable-diffusion-refiner.description": "Model SDXL obraz-na-obraz wykonuje wysokiej jakości transformacje obrazów wejściowych, wspierając transfer stylu, rekonstrukcję i kreatywne wariacje.",
   "comfyui/stable-diffusion-xl.description": "SDXL to model tekst-na-obraz obsługujący generowanie obrazów w wysokiej rozdzielczości 1024x1024 z lepszą jakością i szczegółowością.",
   "command-a-03-2025.description": "Command A to nasz najbardziej zaawansowany model, doskonały w użyciu narzędzi, agentach, RAG i scenariuszach wielojęzycznych. Obsługuje kontekst długości 256K, działa na zaledwie dwóch GPU i zapewnia 150% większą przepustowość niż Command R+ 08-2024.",

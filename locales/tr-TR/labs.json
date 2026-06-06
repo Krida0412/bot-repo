@@ -1,4 +1,4 @@
-{
+﻿{
   "features.agentDocumentFloatingChatPanel.desc": "Yalnızca bu laboratuvar özelliği etkinleştirildiğinde, ajan belge önizlemesinde yüzer sohbet panelini göster.",
   "features.agentDocumentFloatingChatPanel.title": "Ajan Belgesi Yüzer Sohbet Paneli",
   "features.agentSelfIteration.desc": "Asistanın düşünmesini, öz farkındalık geliştirmesini ve devam eden denemeler ile etkileşimler boyunca sürekli yineleme yapmasını sağlar.",
@@ -11,7 +11,7 @@
   "features.gatewayMode.title": "Sunucu Taraflı Aracı Yürütme (Gateway)",
   "features.groupChat.desc": "Çoklu temsilci grup sohbeti koordinasyonunu etkinleştirin.",
   "features.groupChat.title": "Grup Sohbeti (Çoklu Temsilci)",
-  "features.imessage.desc": "Ajanları, yerel LobeHub Masaüstü BlueBubbles köprüsü aracılığıyla iMessage'a bağlayın.",
+  "features.imessage.desc": "Ajanları, yerel ASAI Masaüstü BlueBubbles köprüsü aracılığıyla iMessage'a bağlayın.",
   "features.imessage.title": "iMessage Kanalı",
   "features.inputMarkdown.desc": "Girdi alanında Markdown biçimlendirmesini (kalın metin, kod blokları, tablolar vb.) gerçek zamanlı olarak görüntüleyin.",
   "features.inputMarkdown.title": "Girdi Markdown Görüntüleme",

@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   'addUserMessage.desc': 'Add the current input as a user message without triggering generation',
   'addUserMessage.title': 'Add a User Message',
   'commandPalette.desc': 'Open the global command palette for quick access to features',
@@ -17,7 +17,7 @@ export default {
   'desktop.showApp.title': 'Show/Hide Main Window',
   'editMessage.desc': 'Enter edit mode by holding Alt and double-clicking the message',
   'editMessage.title': 'Edit Message',
-  'navigateToChat.desc': 'Switch to the Chat tab and enter Lobe AI',
+  'navigateToChat.desc': 'Switch to the Chat tab and enter ASAI',
   'navigateToChat.title': 'Switch to Default Chat',
   'openChatSettings.desc': 'View and modify the settings for the current conversation',
   'openChatSettings.title': 'Open Chat Settings',

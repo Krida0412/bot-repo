@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "01.AI’s latest open-source fine-tuned model with 34B parameters, supporting multiple dialogue scenarios, trained on high-quality data and aligned with human preferences.",
   "01-ai/yi-1.5-9b-chat.description": "01.AI’s latest open-source fine-tuned model with 9B parameters, supporting multiple dialogue scenarios, trained on high-quality data and aligned with human preferences.",
   "360/deepseek-r1.description": "360-deployed DeepSeek-R1 uses large-scale RL in post-training to greatly boost reasoning with minimal labels. It matches OpenAI o1 on math, code, and natural language reasoning tasks.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5 is a classic 512x512 text-to-image model, ideal for rapid prototyping and creative experiments.",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5 with built-in CLIP/T5 encoders needs no external encoder files, suitable for models like sd3.5_medium_incl_clips with lower resource usage.",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5 is a next-generation text-to-image model with Large and Medium variants. It requires external CLIP encoder files and delivers excellent image quality and prompt adherence.",
-  "comfyui/stable-diffusion-custom-refiner.description": "Custom SDXL image-to-image model. Use custom_sd_lobe.safetensors as the model filename; if you have a VAE, use custom_sd_vae_lobe.safetensors. Place model files in the required Comfy folders.",
-  "comfyui/stable-diffusion-custom.description": "Custom SD text-to-image model. Use custom_sd_lobe.safetensors as the model filename; if you have a VAE, use custom_sd_vae_lobe.safetensors. Place model files in the required Comfy folders.",
+  "comfyui/stable-diffusion-custom-refiner.description": "Custom SDXL image-to-image model. Use custom_sd_ASAI.safetensors as the model filename; if you have a VAE, use custom_sd_vae_ASAI.safetensors. Place model files in the required Comfy folders.",
+  "comfyui/stable-diffusion-custom.description": "Custom SD text-to-image model. Use custom_sd_ASAI.safetensors as the model filename; if you have a VAE, use custom_sd_vae_ASAI.safetensors. Place model files in the required Comfy folders.",
   "comfyui/stable-diffusion-refiner.description": "SDXL image-to-image model performs high-quality transformations from input images, supporting style transfer, restoration, and creative variations.",
   "comfyui/stable-diffusion-xl.description": "SDXL is a text-to-image model supporting 1024x1024 high-resolution generation with better image quality and detail.",
   "command-a-03-2025.description": "Command A is our most capable model to date, excelling at tool use, agents, RAG, and multilingual scenarios. It has a 256K context window, runs on just two GPUs, and delivers 150% higher throughput than Command R+ 08-2024.",

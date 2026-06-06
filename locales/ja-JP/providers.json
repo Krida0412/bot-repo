@@ -1,4 +1,4 @@
-{
+﻿{
   "ai21.description": "AI21 Labsは、企業向けに基盤モデルとAIシステムを構築し、生成AIの実運用を加速させます。",
   "ai302.description": "302.AIは、幅広いAI APIとオンラインAIアプリを提供する従量課金制のAIプラットフォームです。",
   "ai360.description": "360 AIは、360社が提供するモデルおよびサービスプラットフォームで、360GPT2 Pro、360GPT Pro、360GPT TurboなどのNLPモデルを提供します。大規模パラメータとマルチモーダル機能を組み合わせ、テキスト生成、意味理解、チャット、コード生成に対応し、多様なニーズに応じた柔軟な価格設定が可能です。",
@@ -33,7 +33,7 @@
   "jina.description": "Jina AIは2020年に設立された検索AIのリーディングカンパニーで、ベクトルモデル、リランカー、小型言語モデルを含む検索スタックにより、高品質な生成・マルチモーダル検索アプリを構築できます。",
   "kimicodingplan.description": "Moonshot AIのKimi Codeは、K2.5を含むKimiモデルへのアクセスを提供します。",
   "lmstudio.description": "LM Studioは、ローカルPC上でLLMの開発と実験ができるデスクトップアプリです。",
-  "lobehub.description": "LobeHub Cloudは、公式APIを使用してAIモデルにアクセスし、モデルトークンに紐づいたクレジットで使用量を測定します。",
+  "ASAI.description": "ASAI Cloudは、公式APIを使用してAIモデルにアクセスし、モデルトークンに紐づいたクレジットで使用量を測定します。",
   "longcat.description": "LongCatは、Meituanが独自に開発した生成AIの大型モデルシリーズです。効率的な計算アーキテクチャと強力なマルチモーダル機能を通じて、企業内部の生産性を向上させ、革新的なアプリケーションを可能にすることを目的としています。",
   "minimax.description": "MiniMaxは2021年に設立され、マルチモーダル基盤モデルを用いた汎用AIを開発しています。兆単位パラメータのMoEテキストモデル、音声モデル、ビジョンモデル、Hailuo AIなどのアプリを提供します。",
   "minimaxcodingplan.description": "MiniMaxトークンプランは、固定料金のサブスクリプションを通じてM2.7を含むMiniMaxモデルへのアクセスを提供します。",

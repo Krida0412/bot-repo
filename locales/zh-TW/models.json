@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "01.AI 最新開源微調模型，擁有 340 億參數，支援多種對話場景，訓練於高品質資料，並對齊人類偏好。",
   "01-ai/yi-1.5-9b-chat.description": "01.AI 最新開源微調模型，擁有 90 億參數，支援多種對話場景，訓練於高品質資料，並對齊人類偏好。",
   "360/deepseek-r1.description": "360 部署的 DeepSeek-R1 在後訓練階段應用大規模強化學習，僅需極少標註資料即可大幅提升推理能力，在數學、程式碼與自然語言推理任務上與 OpenAI o1 表現相當。",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5 是經典的 512x512 文字轉圖像模型，適合快速原型設計與創意實驗。",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5 內建 CLIP/T5 編碼器，無需外部編碼器檔案，適用於如 sd3.5_medium_incl_clips 等資源使用較低的模型。",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5 是新一代文字轉圖像模型，提供 Large 與 Medium 版本。需搭配外部 CLIP 編碼器檔案，具備優異的圖像品質與提示詞遵循度。",
-  "comfyui/stable-diffusion-custom-refiner.description": "自訂 SDXL 圖像轉圖像模型。請使用 custom_sd_lobe.safetensors 作為模型檔名；若有 VAE，請使用 custom_sd_vae_lobe.safetensors。將模型檔案放入 Comfy 指定資料夾中。",
-  "comfyui/stable-diffusion-custom.description": "自訂 SD 文字轉圖像模型。請使用 custom_sd_lobe.safetensors 作為模型檔名；若有 VAE，請使用 custom_sd_vae_lobe.safetensors。將模型檔案放入 Comfy 指定資料夾中。",
+  "comfyui/stable-diffusion-custom-refiner.description": "自訂 SDXL 圖像轉圖像模型。請使用 custom_sd_ASAI.safetensors 作為模型檔名；若有 VAE，請使用 custom_sd_vae_ASAI.safetensors。將模型檔案放入 Comfy 指定資料夾中。",
+  "comfyui/stable-diffusion-custom.description": "自訂 SD 文字轉圖像模型。請使用 custom_sd_ASAI.safetensors 作為模型檔名；若有 VAE，請使用 custom_sd_vae_ASAI.safetensors。將模型檔案放入 Comfy 指定資料夾中。",
   "comfyui/stable-diffusion-refiner.description": "SDXL 圖像轉圖像模型，能從輸入圖像進行高品質轉換，支援風格轉換、修復與創意變化。",
   "comfyui/stable-diffusion-xl.description": "SDXL 是一款支援 1024x1024 高解析度生成的文字轉圖像模型，具備更佳的圖像品質與細節表現。",
   "command-a-03-2025.description": "Command A 是我們目前最強大的模型，擅長工具使用、代理任務、RAG 與多語言場景。具備 256K 上下文視窗，僅需兩張 GPU 即可運行，吞吐量比 Command R+ 08-2024 高出 150%。",

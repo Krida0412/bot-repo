@@ -1,4 +1,4 @@
-{
+﻿{
   "features.agentDocumentFloatingChatPanel.desc": "Mostra il pannello di chat flottante nell'anteprima del documento dell'agente solo quando questa funzione di laboratorio è abilitata.",
   "features.agentDocumentFloatingChatPanel.title": "Pannello di Chat Flottante per Documenti Agente",
   "features.agentSelfIteration.desc": "Consenti all'assistente di riflettere, sviluppare autoconsapevolezza e iterare continuamente attraverso tentativi e interazioni continui.",
@@ -11,7 +11,7 @@
   "features.gatewayMode.title": "Esecuzione dell’Agente Lato Server (Gateway)",
   "features.groupChat.desc": "Abilita il coordinamento della chat di gruppo con più agenti.",
   "features.groupChat.title": "Chat di Gruppo (Multi-Agente)",
-  "features.imessage.desc": "Collega gli agenti a iMessage tramite il bridge locale LobeHub Desktop BlueBubbles.",
+  "features.imessage.desc": "Collega gli agenti a iMessage tramite il bridge locale ASAI Desktop BlueBubbles.",
   "features.imessage.title": "Canale iMessage",
   "features.inputMarkdown.desc": "Visualizza in tempo reale il Markdown nell'area di input (testo in grassetto, blocchi di codice, tabelle, ecc.).",
   "features.inputMarkdown.title": "Rendering Markdown in Input",

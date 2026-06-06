@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   '_cloud.officialProvider': '{{name}} Official Model Service',
   'about.title': 'About',
   'accountDeletion.cancelButton': 'Cancel Deletion',
@@ -843,7 +843,7 @@ export default {
   'settingSelfIteration.enabled.desc':
     'Allow this assistant to review recent signals and improve its own skills when the self-iteration workflow runs.',
   'settingSelfIteration.enabled.managedDesc':
-    'Always on for Lobe AI while Self-Iteration is available.',
+    'Always on for ASAI while Self-Iteration is available.',
   'settingSelfIteration.enabled.title': 'Enable Self-Iteration',
   'settingSelfIteration.title': 'Self-Iteration',
   'settingSystem.oauth.info.desc': 'Logged in',

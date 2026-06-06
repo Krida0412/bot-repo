@@ -1,4 +1,4 @@
-{
+﻿{
   "config.aspectRatio.label": "Rasio Aspek",
   "config.aspectRatio.lock": "Kunci Rasio Aspek",
   "config.aspectRatio.unlock": "Buka Rasio Aspek",
@@ -50,7 +50,7 @@
   "generation.metadata.count": "{{count}} Gambar",
   "generation.status.failed": "Pembuatan mengalami masalah. Sesuaikan prompt dan coba lagi",
   "generation.status.generating": "Sedang membuat...",
-  "notSupportGuide.desc": "Mode deployment saat ini tidak mendukung pembuatan gambar AI. Pindah ke <1>mode deployment basis data server</1>, atau gunakan <3>LobeHub Cloud</3>.",
+  "notSupportGuide.desc": "Mode deployment saat ini tidak mendukung pembuatan gambar AI. Pindah ke <1>mode deployment basis data server</1>, atau gunakan <3>ASAI Cloud</3>.",
   "notSupportGuide.features.fileIntegration.desc": "Integrasi mendalam dengan sistem file; gambar yang dihasilkan otomatis disimpan ke sistem file untuk dikelola dan diatur secara terpadu.",
   "notSupportGuide.features.fileIntegration.title": "Integrasi Sistem File",
   "notSupportGuide.features.llmAssisted.desc": "Menggabungkan kemampuan model bahasa besar untuk mengoptimalkan dan memperluas prompt secara cerdas, meningkatkan kualitas pembuatan gambar (Segera hadir).",

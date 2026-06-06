@@ -1,4 +1,4 @@
-{
+﻿{
   "duration.TPS": "TPS (Token per Detik): keluaran token per detik",
   "duration.TTFT": "TTFT (Waktu ke Token Pertama): latensi token pertama",
   "duration.completion": "Waktu penyelesaian output",

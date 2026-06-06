@@ -1,4 +1,4 @@
-{
+﻿{
   "ai21.description": "AI21 Labs, üretim ortamlarında üretken yapay zekayı hızlandırarak işletmeler için temel modeller ve yapay zeka sistemleri geliştirir.",
   "ai302.description": "302.AI, geniş bir yapay zeka API ve çevrimiçi yapay zeka uygulamaları kataloğu sunan, kullandıkça öde modeliyle çalışan bir yapay zeka platformudur.",
   "ai360.description": "360 AI, 360 tarafından sunulan bir model ve hizmet platformudur. 360GPT2 Pro, 360GPT Pro ve 360GPT Turbo gibi NLP modelleri sunar. Bu modeller, metin üretimi, anlamsal anlama, sohbet ve kodlama gibi görevler için büyük ölçekli parametreler ve çok modlu yetenekleri birleştirir. Esnek fiyatlandırma seçenekleriyle çeşitli ihtiyaçlara hitap eder.",
@@ -33,7 +33,7 @@
   "jina.description": "2020 yılında kurulan Jina AI, önde gelen bir arama yapay zekası şirketidir. Vektör modelleri, yeniden sıralayıcılar ve küçük dil modelleri içeren arama yığını ile güvenilir ve yüksek kaliteli üretken ve çok modlu arama uygulamaları geliştirir.",
   "kimicodingplan.description": "Moonshot AI'den Kimi Code, kodlama görevleri için K2.5 dahil olmak üzere Kimi modellerine erişim sağlar.",
   "lmstudio.description": "LM Studio, bilgisayarınızda büyük dil modelleriyle geliştirme ve denemeler yapmanızı sağlayan bir masaüstü uygulamasıdır.",
-  "lobehub.description": "LobeHub Cloud, resmi API'leri kullanarak yapay zeka modellerine erişir ve kullanımını model jetonlarına bağlı Kredilerle ölçer.",
+  "ASAI.description": "ASAI Cloud, resmi API'leri kullanarak yapay zeka modellerine erişir ve kullanımını model jetonlarına bağlı Kredilerle ölçer.",
   "longcat.description": "LongCat, Meituan tarafından bağımsız olarak geliştirilen bir dizi üretken yapay zeka büyük modelidir. Verimli bir hesaplama mimarisi ve güçlü çok modlu yetenekler aracılığıyla kurumsal iç verimliliği artırmak ve yenilikçi uygulamaları mümkün kılmak için tasarlanmıştır.",
   "minimax.description": "2021 yılında kurulan MiniMax, çok modlu temel modellerle genel amaçlı yapay zeka geliştirir. Trilyon parametreli MoE metin modelleri, ses ve görsel modellerin yanı sıra Hailuo AI gibi uygulamalar sunar.",
   "minimaxcodingplan.description": "MiniMax Token Planı, sabit ücretli bir abonelik aracılığıyla kodlama görevleri için M2.7 dahil olmak üzere MiniMax modellerine erişim sağlar.",

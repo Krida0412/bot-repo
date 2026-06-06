@@ -1,4 +1,4 @@
-{
+﻿{
   "features.agentDocumentFloatingChatPanel.desc": "Tampilkan panel chat mengambang di pratinjau dokumen agent hanya saat fitur lab ini diaktifkan.",
   "features.agentDocumentFloatingChatPanel.title": "Panel Chat Mengambang Dokumen Agent",
   "features.agentSelfIteration.desc": "Izinkan asisten untuk merefleksikan diri, membangun kesadaran diri, dan terus beriterasi melalui percobaan dan interaksi yang berlangsung.",
@@ -11,7 +11,7 @@
   "features.gatewayMode.title": "Eksekusi Agent di Server (Gateway)",
   "features.groupChat.desc": "Aktifkan koordinasi obrolan grup multi-agent.",
   "features.groupChat.title": "Obrolan Grup (Multi-Agent)",
-  "features.imessage.desc": "Hubungkan agent ke iMessage melalui jembatan BlueBubbles Desktop LobeHub lokal.",
+  "features.imessage.desc": "Hubungkan agent ke iMessage melalui jembatan BlueBubbles Desktop ASAI lokal.",
   "features.imessage.title": "Channel iMessage",
   "features.inputMarkdown.desc": "Render Markdown di area input secara real time (teks tebal, blok kode, tabel, dll.).",
   "features.inputMarkdown.title": "Render Markdown Input",

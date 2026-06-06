@@ -1,4 +1,4 @@
-{
+﻿{
   "balance.creditBalance": "Saldo Kredit Top-up",
   "balance.hobbyDesc": "{{hobby}} tidak termasuk kredit langganan. Anda perlu mengonfigurasi API model atau melakukan top-up.",
   "balance.link.history": "Riwayat Top-up",
@@ -127,7 +127,7 @@
   "header.desc": "Manajemen penggunaan dan langganan",
   "header.title": "Billing",
   "keyMissMatch.button": "Pulihkan penggunaan dan lanjutkan percakapan",
-  "keyMissMatch.description": "Karena kegagalan sistem sesaat, penggunaan langganan Anda saat ini sementara tidak aktif. Klik tombol di bawah untuk memulihkan penggunaan dan melanjutkan percakapan. Jika hal ini terjadi berulang kali, silakan hubungi kami melalui email (support@lobehub.com).",
+  "keyMissMatch.description": "Karena kegagalan sistem sesaat, penggunaan langganan Anda saat ini sementara tidak aktif. Klik tombol di bawah untuk memulihkan penggunaan dan melanjutkan percakapan. Jika hal ini terjadi berulang kali, silakan hubungi kami melalui email (support@ASAI.com).",
   "keyMissMatch.title": "Pulihkan Penggunaan Langganan Sekarang",
   "limitation.chat.budgetReady.action": "Lanjutkan Chat",
   "limitation.chat.budgetReady.desc": "Kredit yang tersedia sekarang cukup untuk permintaan ini.",

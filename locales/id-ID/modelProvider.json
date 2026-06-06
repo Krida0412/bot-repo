@@ -1,4 +1,4 @@
-{
+﻿{
   "azure.azureApiVersion.desc": "Versi API Azure, ikuti format YYYY-MM-DD, lihat [versi terbaru](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
   "azure.azureApiVersion.fetch": "Ambil Daftar",
   "azure.azureApiVersion.title": "Versi API Azure",

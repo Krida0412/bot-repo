@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   'about': 'About',
   'advanceSettings': 'Advanced Settings',
   'alert.cloud.action': 'Try now',
@@ -34,7 +34,7 @@ export default {
   'botIntegrationBanner.dismiss': 'Dismiss',
   'botIntegrationBanner.title': 'Create your own Bot Channel',
   'messengerBanner.dismiss': 'Dismiss',
-  'messengerBanner.title': 'Talk to Lobe AI on your favorite messaging apps',
+  'messengerBanner.title': 'Talk to ASAI on your favorite messaging apps',
   'branching': 'Create Subtopic',
   'branchingDisable':
     'The "Sub-topic" feature is unavailable in the current mode. To use this feature, please switch to Postgres/Pglite DB mode or use ASAI Cloud.',
@@ -127,7 +127,7 @@ export default {
   'cmdk.askAIHeadingEmpty': 'Choose an AI feature',
   'cmdk.askAgentHeading': 'Ask Agent',
   'cmdk.askAgentPlaceholder': 'Ask {{agent}} something...',
-  'cmdk.askLobeAI': 'Ask Lobe AI',
+  'cmdk.askASAI': 'Ask ASAI',
   'cmdk.community': 'Community',
   'cmdk.communitySupport': 'Community Support',
   'cmdk.contactUs': 'Contact Us',

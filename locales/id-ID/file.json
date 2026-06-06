@@ -1,4 +1,4 @@
-{
+﻿{
   "addFolder": "Buat Folder",
   "addLibrary": "Tambah",
   "addPage": "Buat Halaman",
@@ -63,7 +63,7 @@
   "menu.allFiles": "Semua File",
   "menu.allPages": "Semua Halaman",
   "networkError": "Gagal mengambil pustaka. Silakan periksa koneksi jaringan Anda lalu coba lagi.",
-  "notSupportGuide.desc": "Mode deployment saat ini tidak mendukung manajemen file. Beralihlah ke <1>mode deployment database server</1>, atau gunakan <3>LobeHub Cloud</3>.",
+  "notSupportGuide.desc": "Mode deployment saat ini tidak mendukung manajemen file. Beralihlah ke <1>mode deployment database server</1>, atau gunakan <3>ASAI Cloud</3>.",
   "notSupportGuide.features.allKind.desc": "Mendukung jenis file umum, termasuk format halaman populer seperti Word, PPT, Excel, PDF, TXT, serta file kode populer seperti JS dan Python.",
   "notSupportGuide.features.allKind.title": "Parsing Beragam Jenis File",
   "notSupportGuide.features.embeddings.desc": "Memanfaatkan model vektor berkinerja tinggi untuk membuat vektor dari potongan teks, sehingga memungkinkan pencarian semantik atas isi file.",

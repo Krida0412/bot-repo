@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "01.AI’nin en son açık kaynaklı, 34 milyar parametreli ince ayarlı modeli; çoklu diyalog senaryolarını destekler, yüksek kaliteli verilerle eğitilmiştir ve insan tercihleriyle uyumludur.",
   "01-ai/yi-1.5-9b-chat.description": "01.AI’nin en son açık kaynaklı, 9 milyar parametreli ince ayarlı modeli; çoklu diyalog senaryolarını destekler, yüksek kaliteli verilerle eğitilmiştir ve insan tercihleriyle uyumludur.",
   "360/deepseek-r1.description": "360 tarafından dağıtılan DeepSeek-R1, son eğitim aşamasında büyük ölçekli pekiştirmeli öğrenme (RL) kullanarak çok az etiketli veriyle akıl yürütme yeteneğini büyük ölçüde artırır. Matematik, kodlama ve doğal dil akıl yürütme görevlerinde OpenAI o1 ile eşleşir.",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5, 512x512 çözünürlükte klasik bir metinden-görüntüye modelidir. Hızlı prototipleme ve yaratıcı deneyler için uygundur.",
   "comfyui/stable-diffusion-35-inclclip.description": "Dahili CLIP/T5 kodlayıcılarıyla gelen Stable Diffusion 3.5, harici kodlayıcı dosyalarına ihtiyaç duymaz. Daha az kaynak kullanımıyla sd3.5_medium_incl_clips gibi modeller için uygundur.",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5, Büyük ve Orta varyantlarıyla yeni nesil bir metinden-görüntüye modelidir. Harici CLIP kodlayıcı dosyaları gerektirir ve mükemmel görüntü kalitesi ile istem uyumu sunar.",
-  "comfyui/stable-diffusion-custom-refiner.description": "Özel SDXL görüntüden-görüntüye modeli. Model dosya adı olarak custom_sd_lobe.safetensors kullanın; VAE varsa custom_sd_vae_lobe.safetensors kullanın. Model dosyalarını gerekli Comfy klasörlerine yerleştirin.",
-  "comfyui/stable-diffusion-custom.description": "Özel SD metinden-görüntüye modeli. Model dosya adı olarak custom_sd_lobe.safetensors kullanın; VAE varsa custom_sd_vae_lobe.safetensors kullanın. Model dosyalarını gerekli Comfy klasörlerine yerleştirin.",
+  "comfyui/stable-diffusion-custom-refiner.description": "Özel SDXL görüntüden-görüntüye modeli. Model dosya adı olarak custom_sd_ASAI.safetensors kullanın; VAE varsa custom_sd_vae_ASAI.safetensors kullanın. Model dosyalarını gerekli Comfy klasörlerine yerleştirin.",
+  "comfyui/stable-diffusion-custom.description": "Özel SD metinden-görüntüye modeli. Model dosya adı olarak custom_sd_ASAI.safetensors kullanın; VAE varsa custom_sd_vae_ASAI.safetensors kullanın. Model dosyalarını gerekli Comfy klasörlerine yerleştirin.",
   "comfyui/stable-diffusion-refiner.description": "SDXL görüntüden-görüntüye modeli, giriş görüntülerinden yüksek kaliteli dönüşümler gerçekleştirir. Stil aktarımı, restorasyon ve yaratıcı varyasyonları destekler.",
   "comfyui/stable-diffusion-xl.description": "SDXL, 1024x1024 yüksek çözünürlükte görüntü üretimini destekleyen bir metinden-görüntüye modelidir. Daha iyi görüntü kalitesi ve detay sunar.",
   "command-a-03-2025.description": "Command A, şimdiye kadarki en yetenekli modelimizdir. Araç kullanımı, yapay zeka ajanları, RAG ve çok dilli senaryolarda üstündür. 256K bağlam penceresine sahiptir, yalnızca iki GPU üzerinde çalışır ve Command R+ 08-2024’e göre %150 daha yüksek verim sunar.",

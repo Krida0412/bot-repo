@@ -1,4 +1,4 @@
-{
+﻿{
   "addUserMessage.desc": "Tambahkan input saat ini sebagai pesan pengguna tanpa memicu generasi",
   "addUserMessage.title": "Tambahkan Pesan Pengguna",
   "commandPalette.desc": "Buka palet perintah global untuk akses cepat ke fitur",
@@ -17,7 +17,7 @@
   "desktop.showApp.title": "Tampilkan/Sembunyikan Jendela Utama",
   "editMessage.desc": "Masuk mode edit dengan menahan Alt dan klik dua kali pesan",
   "editMessage.title": "Edit Pesan",
-  "navigateToChat.desc": "Pindah ke tab Chat dan masuk ke Lobe AI",
+  "navigateToChat.desc": "Pindah ke tab Chat dan masuk ke ASAI",
   "navigateToChat.title": "Pindah ke Chat Bawaan",
   "openChatSettings.desc": "Lihat dan ubah pengaturan percakapan saat ini",
   "openChatSettings.title": "Buka Pengaturan Chat",

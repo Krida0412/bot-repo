@@ -1,4 +1,4 @@
-{
+﻿{
   "agentSelection.empty": "Aucun agent disponible",
   "agentSelection.noAvailable": "Aucun agent ne peut être ajouté pour le moment",
   "agentSelection.noSelected": "Aucun agent sélectionné",
@@ -41,7 +41,7 @@
   "project.create": "Nouveau projet",
   "project.deleteConfirm": "Ce projet sera supprimé et ne pourra pas être récupéré. Confirmez pour continuer.",
   "recommendations.heteroAgent.cta": "Ajouter un agent",
-  "recommendations.heteroAgent.description": "CLI {{name}} détecté sur cet appareil — ajoutez l'agent {{name}} pour discuter avec lui depuis LobeHub.",
+  "recommendations.heteroAgent.description": "CLI {{name}} détecté sur cet appareil — ajoutez l'agent {{name}} pour discuter avec lui depuis ASAI.",
   "recommendations.heteroAgent.tag": "Agent de codage",
   "recommendations.heteroAgent.title": "Ajouter l'agent {{name}}",
   "recommendations.subtitle": "Quelques recommandations pour votre configuration",

@@ -1,4 +1,4 @@
-{
+﻿{
   "dropdownLabel": "Buka direktori kerja di",
   "errors.appNotInstalled": "{{appName}} belum terpasang",
   "errors.launchFailed": "Gagal membuka di {{appName}}: {{error}}",

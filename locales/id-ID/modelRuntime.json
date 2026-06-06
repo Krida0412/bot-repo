@@ -1,6 +1,6 @@
-{
+﻿{
   "AccountDeactivated": "Akun Anda telah dinonaktifkan atau ditangguhkan. Ini bisa terjadi karena kebijakan, keamanan, atau peninjauan akun. Silakan hubungi dukungan penyedia untuk bantuan.",
-  "AgentRuntimeError": "Terjadi error saat eksekusi runtime model bahasa Lobe. Silakan periksa atau coba lagi berdasarkan informasi berikut.",
+  "AgentRuntimeError": "Terjadi error saat eksekusi runtime model bahasa ASAI. Silakan periksa atau coba lagi berdasarkan informasi berikut.",
   "CapabilityNotSupported": "Maaf, model ini tidak mendukung kemampuan yang diminta (seperti input visual atau pemanggilan alat). Silakan ganti ke model yang mendukungnya.",
   "ComfyUIBizError": "Terjadi error saat meminta layanan ComfyUI. Silakan periksa info di bawah atau coba lagi.",
   "ComfyUIEmptyResult": "Tidak ada gambar yang dihasilkan oleh ComfyUI. Silakan cek konfigurasi model atau coba lagi.",

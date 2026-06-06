@@ -1,4 +1,4 @@
-{
+﻿{
   "benchmark.actions.delete": "Hapus Benchmark",
   "benchmark.actions.delete.confirm": "Yakin ingin menghapus benchmark ini? Dataset terkait dan catatan evaluasi juga akan dihapus.",
   "benchmark.actions.edit": "Edit Benchmark",

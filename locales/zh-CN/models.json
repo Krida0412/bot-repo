@@ -1,4 +1,4 @@
-{
+﻿{
   "01-ai/yi-1.5-34b-chat.description": "01.AI 最新开源微调模型，拥有 340 亿参数，支持多种对话场景，基于高质量数据训练，并对齐人类偏好。",
   "01-ai/yi-1.5-9b-chat.description": "01.AI 最新开源微调模型，拥有 90 亿参数，支持多种对话场景，基于高质量数据训练，并对齐人类偏好。",
   "360/deepseek-r1.description": "360 部署的 DeepSeek-R1 在后训练阶段应用大规模强化学习，在极少标注数据下显著提升推理能力，在数学、编程和自然语言推理任务上可与 OpenAI o1 相媲美。",
@@ -369,8 +369,8 @@
   "comfyui/stable-diffusion-15.description": "Stable Diffusion 1.5 是一款经典的 512x512 文生图模型，适合快速原型开发和创意实验。",
   "comfyui/stable-diffusion-35-inclclip.description": "Stable Diffusion 3.5 内置 CLIP/T5 编码器，无需外部编码器文件，适用于如 sd3.5_medium_incl_clips 等资源占用较低的模型。",
   "comfyui/stable-diffusion-35.description": "Stable Diffusion 3.5 是下一代文生图模型，提供 Large 和 Medium 两个版本。需使用外部 CLIP 编码器文件，图像质量和提示词响应能力出色。",
-  "comfyui/stable-diffusion-custom-refiner.description": "自定义 SDXL 图生图模型。模型文件名应为 custom_sd_lobe.safetensors；如有 VAE，请使用 custom_sd_vae_lobe.safetensors。将模型文件放入 Comfy 指定文件夹中。",
-  "comfyui/stable-diffusion-custom.description": "自定义 SD 文生图模型。模型文件名应为 custom_sd_lobe.safetensors；如有 VAE，请使用 custom_sd_vae_lobe.safetensors。将模型文件放入 Comfy 指定文件夹中。",
+  "comfyui/stable-diffusion-custom-refiner.description": "自定义 SDXL 图生图模型。模型文件名应为 custom_sd_ASAI.safetensors；如有 VAE，请使用 custom_sd_vae_ASAI.safetensors。将模型文件放入 Comfy 指定文件夹中。",
+  "comfyui/stable-diffusion-custom.description": "自定义 SD 文生图模型。模型文件名应为 custom_sd_ASAI.safetensors；如有 VAE，请使用 custom_sd_vae_ASAI.safetensors。将模型文件放入 Comfy 指定文件夹中。",
   "comfyui/stable-diffusion-refiner.description": "SDXL 图生图模型，可对输入图像进行高质量转换，支持风格迁移、图像修复和创意变体生成。",
   "comfyui/stable-diffusion-xl.description": "SDXL 是一款支持 1024x1024 高分辨率生成的文生图模型，图像质量和细节表现更佳。",
   "command-a-03-2025.description": "Command A 是我们迄今为止最强大的模型，擅长工具使用、智能体、RAG 和多语言场景。支持 256K 上下文窗口，仅需两块 GPU 即可运行，吞吐量比 Command R+ 08-2024 提高 150%。",

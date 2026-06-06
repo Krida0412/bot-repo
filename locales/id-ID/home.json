@@ -1,4 +1,4 @@
-{
+﻿{
   "agentSelection.empty": "Tidak ada agent tersedia",
   "agentSelection.noAvailable": "Saat ini tidak ada agent yang bisa ditambahkan",
   "agentSelection.noSelected": "Belum ada agent dipilih",
@@ -41,7 +41,7 @@
   "project.create": "Proyek baru",
   "project.deleteConfirm": "Proyek ini akan dihapus dan tidak bisa dipulihkan. Konfirmasi untuk lanjut.",
   "recommendations.heteroAgent.cta": "Tambahkan Agent",
-  "recommendations.heteroAgent.description": "Terdeteksi CLI {{name}} di perangkat ini — tambahkan agent {{name}} untuk mengobrol dengannya dari LobeHub.",
+  "recommendations.heteroAgent.description": "Terdeteksi CLI {{name}} di perangkat ini — tambahkan agent {{name}} untuk mengobrol dengannya dari ASAI.",
   "recommendations.heteroAgent.tag": "Agent Coding",
   "recommendations.heteroAgent.title": "Tambahkan agent {{name}}",
   "recommendations.subtitle": "Beberapa rekomendasi untuk setup Anda",

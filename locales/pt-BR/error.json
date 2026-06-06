@@ -1,4 +1,4 @@
-{
+﻿{
   "error.backHome": "Voltar para a Página Inicial",
   "error.desc": "Tente novamente mais tarde ou volte para o mundo conhecido.",
   "error.retry": "Recarregar",
@@ -61,7 +61,7 @@
   "response.522": "Pedimos desculpas, a conexão com o servidor expirou. Isso pode ser causado por instabilidade na rede. Tente novamente mais tarde.",
   "response.524": "Pedimos desculpas, o servidor demorou para responder. Tente novamente mais tarde.",
   "response.AccountDeactivated": "Sua conta foi desativada ou suspensa. Isso pode ter ocorrido devido a políticas, questões de segurança ou revisão da conta. Entre em contato com o suporte do provedor para obter assistência.",
-  "response.AgentRuntimeError": "Erro de execução do modelo de linguagem Lobe. Solucione ou tente novamente com base nas informações abaixo.",
+  "response.AgentRuntimeError": "Erro de execução do modelo de linguagem ASAI. Solucione ou tente novamente com base nas informações abaixo.",
   "response.ComfyUIBizError": "Ocorreu um erro ao solicitar o serviço ComfyUI. Solucione com base nas informações abaixo ou tente novamente.",
   "response.ComfyUIEmptyResult": "Nenhuma imagem foi gerada pelo ComfyUI. Verifique a configuração do modelo ou tente novamente.",
   "response.ComfyUIModelError": "Falha ao carregar o modelo ComfyUI. Verifique se o arquivo do modelo existe.",
@@ -91,7 +91,7 @@
   "response.InvalidOllamaArgs": "Configuração inválida do Ollama. Verifique e tente novamente.",
   "response.InvalidProviderAPIKey": "A chave de API do {{provider}} está incorreta ou vazia. Verifique e tente novamente.",
   "response.InvalidVertexCredentials": "Falha na autenticação do Vertex. Verifique suas credenciais e tente novamente.",
-  "response.LobeHubModelDeprecated": "O modelo \"{{model}}\" não está mais disponível. Por favor, escolha um modelo atual no seletor de modelos.",
+  "response.ASAIModelDeprecated": "O modelo \"{{model}}\" não está mais disponível. Por favor, escolha um modelo atual no seletor de modelos.",
   "response.LocationNotSupportError": "Desculpe, sua localização atual não suporta este serviço. Verifique as restrições regionais ou tente de outro local.",
   "response.ModelNotFound": "Desculpe, o modelo solicitado não foi encontrado. Verifique se ele existe ou se você tem permissão de acesso.",
   "response.NoOpenAIAPIKey": "A chave de API do OpenAI está vazia. Adicione uma chave personalizada.",

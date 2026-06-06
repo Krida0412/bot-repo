@@ -1,4 +1,4 @@
-{
+﻿{
   "agent_cron_job_failed": "Tugas terjadwal Anda \"{{jobName}}\" gagal. Buka tugas untuk melihat error lengkap.",
   "agent_cron_job_failed_insufficient_budget": "Tugas terjadwal Anda \"{{jobName}}\" tidak dapat dijalankan karena kredit akun Anda habis. Isi saldo atau tingkatkan paket agar tugas berikutnya bisa berjalan.",
   "agent_cron_job_failed_insufficient_budget_title": "Tugas terjadwal dijeda: kredit tidak mencukupi",
