@@ -47,6 +47,12 @@ jobs:
           mkdir -p .vercel
           printf '%s\n' "$DOTENV" >> .vercel/.env.production.local
 
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile || pnpm install
+
+      - name: Build SPA (Vite frontend)
+        run: pnpm run build:spa:raw && pnpm run build:spa:copy
+
       - name: Build (Next.js prebuilt output)
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
 
