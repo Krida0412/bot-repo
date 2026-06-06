@@ -271,6 +271,30 @@ export const KLAVIS_SERVER_TYPES: KlavisServerType[] = [
     label: 'Cal.com',
     serverName: Klavis.McpServerName.CalCom,
   },
+  {
+    author: 'Klavis',
+    authorUrl: 'https://klavis.io',
+    description:
+      'Notion is a collaborative productivity and note-taking application for documents, wikis, and project management.',
+    icon: 'https://hub-apac-1.lobeobjects.space/assets/logos/notion.svg',
+    identifier: 'notion',
+    readme:
+      'Integrate with Notion to manage your workspace, documents, and databases. Create pages, query databases, update content, and organize your knowledge base through natural conversation.',
+    label: 'Notion',
+    serverName: Klavis.McpServerName.Notion,
+  },
+  {
+    author: 'Klavis',
+    authorUrl: 'https://klavis.io',
+    description:
+      'GitHub is a platform for version control and collaboration, enabling developers to host, review, and manage code repositories.',
+    icon: 'https://hub-apac-1.lobeobjects.space/assets/logos/github.svg',
+    identifier: 'github',
+    readme:
+      'Connect to GitHub to manage repositories, issues, and pull requests. Search code, create issues, review PRs, and automate your development workflow through natural conversation.',
+    label: 'GitHub',
+    serverName: Klavis.McpServerName.Github,
+  },
 ];
 
 /**
