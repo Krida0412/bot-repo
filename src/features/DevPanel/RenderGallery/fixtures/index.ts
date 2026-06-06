@@ -51,7 +51,7 @@ export const DEVTOOLS_AGENT_ID = 'devtools-render-gallery';
 
 export const DEVTOOLS_AGENT_META = {
   avatar: DEFAULT_INBOX_AVATAR,
-  title: 'Lobe AI',
+  title: 'ASAI',
 };
 
 export const DEVTOOLS_GROUP_DETAIL = {

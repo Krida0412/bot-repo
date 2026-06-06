@@ -114,9 +114,9 @@ export class AgentModel {
     // Add keyword search condition if provided
     return keyword
       ? and(
-          baseConditions,
-          or(ilike(agents.title, `%${keyword}%`), ilike(agents.description, `%${keyword}%`)),
-        )
+        baseConditions,
+        or(ilike(agents.title, `%${keyword}%`), ilike(agents.description, `%${keyword}%`)),
+      )
       : baseConditions;
   };
 
@@ -178,7 +178,7 @@ export class AgentModel {
     return rows.map(({ slug, ...row }) => ({
       ...row,
       avatar: row.avatar || (slug === INBOX_SESSION_ID ? DEFAULT_INBOX_AVATAR : null),
-      title: row.title || (slug === INBOX_SESSION_ID ? 'Lobe AI' : null),
+      title: row.title || (slug === INBOX_SESSION_ID ? 'ASAI' : null),
     }));
   };
 

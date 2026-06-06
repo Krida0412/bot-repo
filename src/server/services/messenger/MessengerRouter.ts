@@ -443,12 +443,12 @@ export class MessengerRouter {
             const reply =
               isChannelMention && binder.replyEphemeral
                 ? (text: string) =>
-                    binder.replyEphemeral!({
-                      channelId: chatId,
-                      text,
-                      threadTs: channelThreadTs,
-                      userId: senderId,
-                    })
+                  binder.replyEphemeral!({
+                    channelId: chatId,
+                    text,
+                    threadTs: channelThreadTs,
+                    userId: senderId,
+                  })
                 : (text: string) => binder.sendDmText(chatId, text);
             await command.handler({
               args: parsed.args,
@@ -1175,10 +1175,10 @@ export class MessengerRouter {
     }
 
     const text = [
-      ":wave: Hi, I'm *LobeHub* — your AI agent on Slack.",
+      ":wave: Hi, I'm *ASAI* — your AI agent on Slack.",
       '',
-      '• Mention me with `@LobeHub <your question>` to chat in this channel.',
-      '• First time? Send me a *direct message* to link your LobeHub account.',
+      '• Mention me with `@ASAI <your question>` to chat in this channel.',
+      '• First time? Send me a *direct message* to link your ASAI account.',
       '• Use `/agents` in DM to switch the active agent.',
     ].join('\n');
 
@@ -1278,7 +1278,7 @@ export class MessengerRouter {
         slug: row.slug,
         title:
           (row.title && row.title.trim()) ||
-          (row.slug === INBOX_SESSION_ID ? 'LobeAI' : 'Custom Agent'),
+          (row.slug === INBOX_SESSION_ID ? 'ASAI' : 'Custom Agent'),
       }));
 
     const inboxIdx = mapped.findIndex((row) => row.slug === INBOX_SESSION_ID);
