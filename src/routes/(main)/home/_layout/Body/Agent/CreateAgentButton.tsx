@@ -106,26 +106,6 @@ const CreateAgentButton = memo<CreateAgentButtonProps>(({ groupId, className }) 
       <Text style={{ flex: 1 }} type={'secondary'}>
         {t('newAgent')}
       </Text>
-      <Flexbox
-        horizontal
-        align={'center'}
-        className={ACTION_CLASS_NAME}
-        flex={'none'}
-        justify={'flex-end'}
-        onClick={(e) => {
-          e.preventDefault();
-          e.stopPropagation();
-        }}
-      >
-        <DropdownMenu items={dropdownItems} nativeButton={false}>
-          <ActionIcon
-            color={cssVar.colorTextQuaternary}
-            icon={ChevronDownIcon}
-            size={'small'}
-            style={{ flex: 'none' }}
-          />
-        </DropdownMenu>
-      </Flexbox>
     </Block>
   );
 });
