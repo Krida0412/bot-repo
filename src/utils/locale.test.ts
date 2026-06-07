@@ -13,49 +13,48 @@ describe('parseBrowserLanguage', () => {
   };
 
   describe('when DEFAULT_LANG is en-US', () => {
-    it('should return en-US for empty accept-language header', () => {
+    it('should default to id-ID for ASAI when accept-language is empty', () => {
       const headers = createHeaders();
-      expect(parseBrowserLanguage(headers)).toBe('en-US');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
 
-    it('should return en-US for English language preference', () => {
+    it('should default to id-ID for ASAI even with English language preference', () => {
       const headers = createHeaders('en-US,en;q=0.9');
-      expect(parseBrowserLanguage(headers)).toBe('en-US');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
 
-    it('should handle Arabic language special case', () => {
+    it('should default to id-ID for ASAI even with Arabic language preference', () => {
       const headers = createHeaders('ar-SA,ar;q=0.9');
-      expect(parseBrowserLanguage(headers)).toBe('ar');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
 
-    it('should convert ar-EG to ar', () => {
+    it('should default to id-ID for ASAI even with ar-EG language preference', () => {
       const headers = createHeaders('ar-EG,ar;q=0.9');
-      expect(parseBrowserLanguage(headers)).toBe('ar');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
 
-    it('should handle multiple language preferences', () => {
+    it('should default to id-ID for ASAI even with multiple language preferences', () => {
       const headers = createHeaders('zh-CN,zh;q=0.9,en;q=0.8');
-      // This expectation might need to be adjusted based on your locales configuration
-      expect(parseBrowserLanguage(headers)).toBe('zh-CN');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
   });
 
   describe('when DEFAULT_LANG is not en-US', () => {
-    it('should return the non-en-US DEFAULT_LANG regardless of accept-language', () => {
+    it('should still use the ASAI Indonesian default regardless of passed defaultLang', () => {
       const headers = createHeaders('en-US,en;q=0.9');
-      expect(parseBrowserLanguage(headers, 'zh-CN')).toBe('zh-CN');
+      expect(parseBrowserLanguage(headers, 'zh-CN')).toBe('id-ID');
     });
   });
 
   describe('error handling', () => {
     it('should handle invalid accept-language header format', () => {
       const headers = createHeaders('invalid-format');
-      expect(parseBrowserLanguage(headers)).toBe('en-US');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
 
     it('should handle empty Headers object', () => {
       const headers = new Headers();
-      expect(parseBrowserLanguage(headers)).toBe('en-US');
+      expect(parseBrowserLanguage(headers)).toBe('id-ID');
     });
   });
 });

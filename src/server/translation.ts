@@ -7,7 +7,8 @@ import { loadI18nNamespaceModuleWithFallback } from '../utils/i18n/loadI18nNames
 
 export const getLocale = async (hl?: string): Promise<Locales> => {
   if (hl) return normalizeLocale(hl) as Locales;
-  return DEFAULT_LANG as Locales;
+  // ASAI deployment: default to Indonesian for server-rendered pages
+  return 'id-ID' as Locales;
 };
 
 export const translation = async (ns: NS = 'common', hl: string) => {

@@ -19,17 +19,8 @@ export const RECOMMENDED_SKILLS: RecommendedSkillItem[] = [
   { id: 'lobe-message', type: RecommendedSkillType.Builtin },
   // ASAI skills
   { id: 'twitter', type: RecommendedSkillType.ASAI },
-  // Klavis skills
-  { id: 'gmail', type: RecommendedSkillType.Klavis },
+  // Klavis skills — dibatasi ke 3 (Klavis free tier max 3 instance/akun)
+  { id: 'instagram', type: RecommendedSkillType.Klavis },
   { id: 'google-drive', type: RecommendedSkillType.Klavis },
-  { id: 'google-calendar', type: RecommendedSkillType.Klavis },
-  { id: 'google-sheets', type: RecommendedSkillType.Klavis },
-  { id: 'google-docs', type: RecommendedSkillType.Klavis },
-  { id: 'slack', type: RecommendedSkillType.Klavis },
   { id: 'notion', type: RecommendedSkillType.Klavis },
-  { id: 'github', type: RecommendedSkillType.Klavis },
-  { id: 'youtube', type: RecommendedSkillType.Klavis },
-  { id: 'jira', type: RecommendedSkillType.Klavis },
-  { id: 'airtable', type: RecommendedSkillType.Klavis },
-  { id: 'figma', type: RecommendedSkillType.Klavis },
 ];

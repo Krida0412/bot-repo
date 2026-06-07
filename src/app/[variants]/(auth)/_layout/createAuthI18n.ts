@@ -71,12 +71,39 @@ const loadZhNamespace = async (ns: AuthI18nNamespace) => {
   }
 };
 
+const loadIdNamespace = async (ns: AuthI18nNamespace) => {
+  switch (ns) {
+    case 'auth': {
+      return import('@/../locales/id-ID/auth.json');
+    }
+    case 'authError': {
+      return import('@/../locales/id-ID/authError.json');
+    }
+    case 'common': {
+      return import('@/../locales/id-ID/common.json');
+    }
+    case 'error': {
+      return import('@/../locales/id-ID/error.json');
+    }
+    case 'marketAuth': {
+      return import('@/../locales/id-ID/marketAuth.json');
+    }
+    case 'messenger': {
+      return import('@/../locales/id-ID/messenger.json');
+    }
+    case 'oauth': {
+      return import('@/../locales/id-ID/oauth.json');
+    }
+  }
+};
+
 const loadAuthNamespace = async (lng: string, ns: string) => {
   const safeNamespace = isAllowedNamespace(ns) ? ns : 'auth';
   const normalizedLocale = normalizeLocale(lng);
 
   try {
     if (normalizedLocale === DEFAULT_LANG) return loadDefaultNamespace(safeNamespace);
+    if (normalizedLocale === 'id-ID') return loadIdNamespace(safeNamespace);
     if (normalizedLocale === 'zh-CN') return loadZhNamespace(safeNamespace);
   } catch {
     // fall through to default namespace

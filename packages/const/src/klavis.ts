@@ -295,6 +295,19 @@ export const KLAVIS_SERVER_TYPES: KlavisServerType[] = [
     label: 'GitHub',
     serverName: Klavis.McpServerName.Github,
   },
+  {
+    author: 'Klavis',
+    authorUrl: 'https://klavis.io',
+    description:
+      'Instagram is a social media platform for sharing photos, videos, and stories, and engaging with your audience.',
+    icon: 'https://hub-apac-1.lobeobjects.space/assets/logos/instagram.svg',
+    identifier: 'instagram',
+    readme:
+      'Connect to Instagram to manage your content and engage with your audience. Access posts, media, and insights through natural conversation.',
+    label: 'Instagram',
+    // SDK type belum expose Instagram; backend Klavis menerima string.
+    serverName: 'Instagram' as Klavis.McpServerName,
+  },
 ];
 
 /**

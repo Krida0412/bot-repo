@@ -2,7 +2,6 @@
 import { cookies } from 'next/headers';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-import { DEFAULT_LANG } from '@/const/locale';
 import { normalizeLocale } from '@/locales/resources';
 
 import { getLocale, translation } from './translation';
@@ -72,10 +71,10 @@ describe('getLocale', () => {
     expect(normalizeLocale).toHaveBeenCalledWith('fr-FR');
   });
 
-  it('should return DEFAULT_LANG if no cookie is set', async () => {
+  it('should return the ASAI Indonesian default if no locale is provided', async () => {
     mockCookieStore.get.mockReturnValue(undefined);
     const result = await getLocale();
-    expect(result).toBe(DEFAULT_LANG);
+    expect(result).toBe('id-ID');
   });
 });
 

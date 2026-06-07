@@ -9,6 +9,7 @@ export const locales = [
   'de-DE',
   'en-US',
   'es-ES',
+  'id-ID',
   'fr-FR',
   'ja-JP',
   'ko-KR',
